@@ -24,6 +24,8 @@ def remove_similar_rows(column_as_df, df, threshold=0.9):
     return df.drop(rows_to_remove)
 
 
+
+
 # Function which finds the lines where a players name is contained
 def find_lines_with_player(dataframe, playerlist):
     

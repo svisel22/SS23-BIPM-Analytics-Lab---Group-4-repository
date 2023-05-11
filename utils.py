@@ -3,25 +3,7 @@ import numpy as np
 import pandas as pd
 
 
-def remove_similar_rows(column_as_df, df, threshold=0.9):
-    # Compute similarity scores for each pair of rows
-    similarity_scores = {}
-    for i, row in column_as_df.iterrows():
-        for j, other_row in column_as_df.iterrows():
-            if i >= j:
-                continue
-            score = SequenceMatcher(None, row, other_row).ratio()
-            if score >= threshold:
-                similarity_scores[(i, j)] = score
-    
-    # Identify rows to remove
-    rows_to_remove = []
-    for (i, j), score in similarity_scores.items():
-        if i not in rows_to_remove and j not in rows_to_remove:
-            rows_to_remove.append(j if df.index[i] < df.index[j] else i)
-    
-    # Remove rows and return modified DataFrame
-    return df.drop(rows_to_remove)
+
 
 
 
@@ -68,5 +50,70 @@ def find_lines_with_player(dataframe, playerlist):
         # add the new data to the Dataframe and return
         df_complete = pd.concat([df_complete, df_player], axis=0)
         
+    return df_complete
+
+
+
+def remove_similar_rows(column_as_df, df, threshold=0.9):
+    ''' The old Function of removing similiarities is deleting allduplicate articles'''
+
+    # Compute similarity scores for each pair of rows
+    similarity_scores = {}
+    for i, row in column_as_df.iterrows():
+        for j, other_row in column_as_df.iterrows():
+            if i >= j:
+                continue
+            score = SequenceMatcher(None, row, other_row).ratio()
+            if score >= threshold:
+                similarity_scores[(i, j)] = score
+    
+    # Identify rows to remove
+    rows_to_remove = []
+    for (i, j), score in similarity_scores.items():
+        if i not in rows_to_remove and j not in rows_to_remove:
+            rows_to_remove.append(j if df.index[i] < df.index[j] else i)
+    
+    # Remove rows and return modified DataFrame
+    return df.drop(rows_to_remove)
+
+
+
+def remove_similar_rows_per_player(df, playerlist, threshold=0.9):
+    '''The procedure of deleting similiar articles needs to be done by each player because if an article writes about 
+    # e.g. two players we want to keep it for both of the players'''
+
+    # define empty df which will be returned in the end
+    df_complete = pd.DataFrame()
+
+    for player in playerlist:
+        
+        # create the df for the player
+        df_player = df[df["player"] == player]
+        df_player = df_player.reset_index(drop=True)
+        column_as_df = pd.DataFrame(df_player['data'])
+
+
+        
+        # Compute similarity scores for each pair of rows
+        similarity_scores = {}
+        for i, row in column_as_df.iterrows():
+            for j, other_row in column_as_df.iterrows():
+                if i >= j:
+                    continue
+                score = SequenceMatcher(None, row, other_row).ratio()
+                if score >= threshold:
+                    similarity_scores[(i, j)] = score
+        
+        # Identify rows to remove
+        rows_to_remove = []
+        for (i, j), score in similarity_scores.items():
+            if i not in rows_to_remove and j not in rows_to_remove:
+                rows_to_remove.append(j if df_player.index[i] < df_player.index[j] else i)
+        
+        # Remove rows and concatenate df
+        df_player = df_player.drop(rows_to_remove)
+        df_complete = pd.concat([df_complete, df_player], axis=0)
+
+        #return modified DataFrame
     return df_complete
 

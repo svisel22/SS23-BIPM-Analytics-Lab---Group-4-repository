@@ -135,3 +135,36 @@ def map_emoji_to_description(emoji_text):
 
 def remove_stopwords_from_text(text, stopwords_list_per_language):
     return remove_stopwords(text, stopwords=stopwords_list_per_language)
+
+
+
+def del_patterns(df_line, pattern):
+    '''
+    Function which takes an input and deletes defined text pattern 
+    '''
+    # split up the records in lines
+    lines = df_line.split('\\n')
+    
+    # create an empty string
+    new_string = ''
+
+    # iterating over the lines 
+    for line in lines:
+       
+       # set deleting to False first
+        deleting = False
+        # check if a pattern word is included in the line and set deleting to True if so 
+        for word in pattern:
+            if deleting == True:
+                break
+            elif word in line:
+                deleting = True
+            else:
+                deleting = False
+        
+        # if the setence should not be delete it add it to the string  
+        if deleting == False:
+           new_string = new_string + line 
+        
+    # return the string 
+    return new_string

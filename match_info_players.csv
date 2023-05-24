@@ -1,0 +1,501 @@
+﻿DATE,HOME_TEAM_NAME,AWAY_TEAM_NAME,SCORE_HOME,SCORE_AWAY,FIRST_NAME,LAST_NAME,MINUTES_PLAYED,GOALS,ASSISTS,IN_LINEUP
+2023-05-14 13:30:00.000,VfB Stuttgart,Bayer 04 Leverkusen,1,1,Mitchel,Bakker,60,0,0,TRUE
+2023-05-11 19:00:00.000,AS Rom,Bayer 04 Leverkusen,1,0,Mitchel,Bakker,54,0,0,FALSE
+2023-05-05 18:30:00.000,Bayer 04 Leverkusen,1.FC Köln,1,2,Mitchel,Bakker,57,0,0,TRUE
+2023-04-29 13:30:00.000,1.FC Union Berlin,Bayer 04 Leverkusen,0,0,Mitchel,Bakker,90,0,0,TRUE
+2023-04-23 15:30:00.000,Bayer 04 Leverkusen,RasenBallsport Leipzig,2,0,Mitchel,Bakker,90,0,0,TRUE
+2023-04-20 19:00:00.000,Royale Union Saint Gilloise,Bayer 04 Leverkusen,1,4,Mitchel,Bakker,90,1,0,TRUE
+2023-04-16 17:30:00.000,VfL Wolfsburg,Bayer 04 Leverkusen,0,0,Mitchel,Bakker,0,0,0,FALSE
+2023-04-13 19:00:00.000,Bayer 04 Leverkusen,Royale Union Saint Gilloise,1,1,Mitchel,Bakker,90,0,0,TRUE
+2023-04-08 13:30:00.000,Bayer 04 Leverkusen,Eintracht Frankfurt,3,1,Mitchel,Bakker,20,0,0,FALSE
+2023-04-01 13:30:00.000,FC Schalke 04,Bayer 04 Leverkusen,0,3,Mitchel,Bakker,7,0,0,FALSE
+2023-03-27 12:00:00.000,Tschechien U21,Niederlande U21,1,1,Mitchel,Bakker,90,0,0,TRUE
+2023-03-25 18:30:00.000,Norwegen U21,Niederlande U21,0,3,Mitchel,Bakker,22,0,0,FALSE
+2023-03-19 16:30:00.000,Bayer 04 Leverkusen,FC Bayern München,2,1,Mitchel,Bakker,6,0,0,FALSE
+2023-03-16 20:00:00.000,Ferencváros Budapest,Bayer 04 Leverkusen,0,2,Mitchel,Bakker,90,0,0,TRUE
+2023-03-12 16:30:00.000,SV Werder Bremen,Bayer 04 Leverkusen,2,3,Mitchel,Bakker,90,1,0,TRUE
+2023-03-09 17:45:00.000,Bayer 04 Leverkusen,Ferencváros Budapest,2,0,Mitchel,Bakker,0,0,0,FALSE
+2023-02-26 14:30:00.000,SC Freiburg,Bayer 04 Leverkusen,1,1,Mitchel,Bakker,90,0,1,TRUE
+2023-02-23 17:45:00.000,AS Monaco,Bayer 04 Leverkusen,5,8,Mitchel,Bakker,120,0,0,TRUE
+2023-02-19 18:30:00.000,Bayer 04 Leverkusen,1.FSV Mainz 05,2,3,Mitchel,Bakker,0,0,0,FALSE
+2023-02-16 20:00:00.000,Bayer 04 Leverkusen,AS Monaco,2,3,Mitchel,Bakker,0,0,0,FALSE
+2023-02-11 14:30:00.000,TSG 1899 Hoffenheim,Bayer 04 Leverkusen,1,3,Mitchel,Bakker,9,0,0,FALSE
+2023-02-03 19:30:00.000,FC Augsburg,Bayer 04 Leverkusen,1,0,Mitchel,Bakker,77,0,0,TRUE
+2023-01-29 16:30:00.000,Bayer 04 Leverkusen,Borussia Dortmund,0,2,Mitchel,Bakker,27,0,0,FALSE
+2023-01-25 19:30:00.000,Bayer 04 Leverkusen,VfL Bochum,2,0,Mitchel,Bakker,0,0,0,FALSE
+2023-01-22 16:30:00.000,Borussia Mönchengladbach,Bayer 04 Leverkusen,2,3,Mitchel,Bakker,90,1,0,TRUE
+2022-11-12 14:30:00.000,Bayer 04 Leverkusen,VfB Stuttgart,2,0,Mitchel,Bakker,90,0,0,TRUE
+2022-11-09 17:30:00.000,1.FC Köln,Bayer 04 Leverkusen,1,2,Mitchel,Bakker,90,0,0,TRUE
+2022-11-06 14:30:00.000,Bayer 04 Leverkusen,1.FC Union Berlin,5,0,Mitchel,Bakker,90,1,1,TRUE
+2022-11-01 17:45:00.000,Bayer 04 Leverkusen,FC Brügge,0,0,Mitchel,Bakker,90,0,0,TRUE
+2022-10-29 13:30:00.000,RasenBallsport Leipzig,Bayer 04 Leverkusen,2,0,Mitchel,Bakker,25,0,0,FALSE
+2022-10-26 19:00:00.000,Atlético Madrid,Bayer 04 Leverkusen,2,2,Mitchel,Bakker,90,0,0,TRUE
+2022-10-22 13:30:00.000,Bayer 04 Leverkusen,VfL Wolfsburg,2,2,Mitchel,Bakker,70,0,0,TRUE
+2022-10-15 13:30:00.000,Eintracht Frankfurt,Bayer 04 Leverkusen,5,1,Mitchel,Bakker,80,0,0,TRUE
+2022-10-08 13:30:00.000,Bayer 04 Leverkusen,FC Schalke 04,4,0,Mitchel,Bakker,90,0,0,TRUE
+2022-09-30 18:30:00.000,FC Bayern München,Bayer 04 Leverkusen,4,0,Mitchel,Bakker,45,0,0,TRUE
+2022-09-23 16:30:00.000,Belgien U21,Niederlande U21,1,2,Mitchel,Bakker,75,0,1,TRUE
+2022-09-17 13:30:00.000,Bayer 04 Leverkusen,SV Werder Bremen,1,1,Mitchel,Bakker,6,0,0,FALSE
+2022-09-13 19:00:00.000,Bayer 04 Leverkusen,Atlético Madrid,2,0,Mitchel,Bakker,1,0,0,FALSE
+2022-09-10 13:30:00.000,Hertha BSC,Bayer 04 Leverkusen,2,2,Mitchel,Bakker,0,0,0,FALSE
+2022-08-27 13:30:00.000,1.FSV Mainz 05,Bayer 04 Leverkusen,0,3,Mitchel,Bakker,90,0,0,TRUE
+2022-08-20 13:30:00.000,Bayer 04 Leverkusen,TSG 1899 Hoffenheim,0,3,Mitchel,Bakker,14,0,0,FALSE
+2022-08-13 13:30:00.000,Bayer 04 Leverkusen,FC Augsburg,1,2,Mitchel,Bakker,63,0,0,TRUE
+2022-08-06 16:30:00.000,Borussia Dortmund,Bayer 04 Leverkusen,1,0,Mitchel,Bakker,11,0,0,FALSE
+2022-07-30 13:31:00.000,SV 07 Elversberg,Bayer 04 Leverkusen,4,3,Mitchel,Bakker,90,0,0,TRUE
+2022-06-11 16:00:00.000,Wales U21,Niederlande U21,0,1,Mitchel,Bakker,90,0,0,TRUE
+2022-06-07 18:00:00.000,Niederlande U21,Gibraltar U21,6,0,Mitchel,Bakker,28,0,1,FALSE
+2022-06-03 16:45:00.000,Moldawien U21,Niederlande U21,0,3,Mitchel,Bakker,90,0,0,TRUE
+2022-05-14 13:30:00.000,Bayer 04 Leverkusen,SC Freiburg,2,1,Mitchel,Bakker,23,0,1,FALSE
+2022-05-07 13:30:00.000,TSG 1899 Hoffenheim,Bayer 04 Leverkusen,2,4,Mitchel,Bakker,45,0,0,FALSE
+2022-05-02 18:30:00.000,Bayer 04 Leverkusen,Eintracht Frankfurt,2,0,Mitchel,Bakker,8,0,0,FALSE
+2022-04-23 13:30:00.000,SpVgg Greuther Fürth,Bayer 04 Leverkusen,1,4,Mitchel,Bakker,90,0,0,TRUE
+2022-04-17 17:30:00.000,Bayer 04 Leverkusen,RasenBallsport Leipzig,0,1,Mitchel,Bakker,90,0,0,TRUE
+2022-04-10 13:30:00.000,VfL Bochum,Bayer 04 Leverkusen,0,0,Mitchel,Bakker,60,0,0,FALSE
+2022-04-02 13:30:00.000,Bayer 04 Leverkusen,Hertha BSC,2,1,Mitchel,Bakker,73,0,0,TRUE
+2022-03-29 16:45:00.000,Niederlande U21,Schweiz U21,2,0,Mitchel,Bakker,90,0,0,TRUE
+2022-03-25 17:45:00.000,Bulgarien U21,Niederlande U21,0,0,Mitchel,Bakker,90,0,0,TRUE
+2022-03-20 16:30:00.000,VfL Wolfsburg,Bayer 04 Leverkusen,0,2,Mitchel,Bakker,65,0,0,TRUE
+2022-03-17 17:45:00.000,Bayer 04 Leverkusen,Atalanta Bergamo,0,1,Mitchel,Bakker,90,0,0,TRUE
+2022-03-13 14:30:00.000,Bayer 04 Leverkusen,1.FC Köln,0,1,Mitchel,Bakker,0,0,0,FALSE
+2022-03-10 20:00:00.000,Atalanta Bergamo,Bayer 04 Leverkusen,3,2,Mitchel,Bakker,90,0,0,TRUE
+2022-03-05 14:30:00.000,FC Bayern München,Bayer 04 Leverkusen,1,1,Mitchel,Bakker,82,0,0,TRUE
+2022-02-26 14:30:00.000,Bayer 04 Leverkusen,Arminia Bielefeld,3,0,Mitchel,Bakker,82,0,0,TRUE
+2022-02-12 17:30:00.000,Bayer 04 Leverkusen,VfB Stuttgart,4,2,Mitchel,Bakker,90,0,0,TRUE
+2022-02-06 14:30:00.000,Borussia Dortmund,Bayer 04 Leverkusen,2,5,Mitchel,Bakker,90,0,0,TRUE
+2022-01-22 14:30:00.000,Bayer 04 Leverkusen,FC Augsburg,5,1,Mitchel,Bakker,90,0,1,TRUE
+2022-01-15 17:30:00.000,Borussia Mönchengladbach,Bayer 04 Leverkusen,1,2,Mitchel,Bakker,90,0,0,TRUE
+2022-01-08 14:30:00.000,Bayer 04 Leverkusen,1.FC Union Berlin,2,2,Mitchel,Bakker,90,0,0,TRUE
+2023-05-14 13:30:00.000,VfB Stuttgart,Bayer 04 Leverkusen,1,1,Moussa,Diaby,90,0,0,TRUE
+2023-05-11 19:00:00.000,AS Rom,Bayer 04 Leverkusen,1,0,Moussa,Diaby,72,0,0,TRUE
+2023-05-05 18:30:00.000,Bayer 04 Leverkusen,1.FC Köln,1,2,Moussa,Diaby,90,0,1,TRUE
+2023-04-29 13:30:00.000,1.FC Union Berlin,Bayer 04 Leverkusen,0,0,Moussa,Diaby,62,0,0,TRUE
+2023-04-23 15:30:00.000,Bayer 04 Leverkusen,RasenBallsport Leipzig,2,0,Moussa,Diaby,68,0,1,TRUE
+2023-04-20 19:00:00.000,Royale Union Saint Gilloise,Bayer 04 Leverkusen,1,4,Moussa,Diaby,86,1,0,TRUE
+2023-04-16 17:30:00.000,VfL Wolfsburg,Bayer 04 Leverkusen,0,0,Moussa,Diaby,90,0,0,TRUE
+2023-04-13 19:00:00.000,Bayer 04 Leverkusen,Royale Union Saint Gilloise,1,1,Moussa,Diaby,87,0,0,TRUE
+2023-04-08 13:30:00.000,Bayer 04 Leverkusen,Eintracht Frankfurt,3,1,Moussa,Diaby,90,1,0,TRUE
+2023-04-01 13:30:00.000,FC Schalke 04,Bayer 04 Leverkusen,0,3,Moussa,Diaby,90,0,2,TRUE
+2023-03-27 18:45:00.000,Irland,Frankreich,0,1,Moussa,Diaby,25,0,0,FALSE
+2023-03-24 19:45:00.000,Frankreich,Niederlande,4,0,Moussa,Diaby,23,0,0,FALSE
+2023-03-19 16:30:00.000,Bayer 04 Leverkusen,FC Bayern München,2,1,Moussa,Diaby,90,0,0,TRUE
+2023-03-16 20:00:00.000,Ferencváros Budapest,Bayer 04 Leverkusen,0,2,Moussa,Diaby,90,1,1,TRUE
+2023-03-12 16:30:00.000,SV Werder Bremen,Bayer 04 Leverkusen,2,3,Moussa,Diaby,74,0,0,TRUE
+2023-03-09 17:45:00.000,Bayer 04 Leverkusen,Ferencváros Budapest,2,0,Moussa,Diaby,71,0,0,TRUE
+2023-03-05 14:30:00.000,Bayer 04 Leverkusen,Hertha BSC,4,1,Moussa,Diaby,69,1,1,TRUE
+2023-02-26 14:30:00.000,SC Freiburg,Bayer 04 Leverkusen,1,1,Moussa,Diaby,66,0,0,TRUE
+2023-02-23 17:45:00.000,AS Monaco,Bayer 04 Leverkusen,5,8,Moussa,Diaby,17,0,0,FALSE
+2023-02-16 20:00:00.000,Bayer 04 Leverkusen,AS Monaco,2,3,Moussa,Diaby,56,1,0,TRUE
+2023-02-11 14:30:00.000,TSG 1899 Hoffenheim,Bayer 04 Leverkusen,1,3,Moussa,Diaby,73,1,0,TRUE
+2023-02-03 19:30:00.000,FC Augsburg,Bayer 04 Leverkusen,1,0,Moussa,Diaby,90,0,0,TRUE
+2023-01-29 16:30:00.000,Bayer 04 Leverkusen,Borussia Dortmund,0,2,Moussa,Diaby,90,0,0,TRUE
+2023-01-25 19:30:00.000,Bayer 04 Leverkusen,VfL Bochum,2,0,Moussa,Diaby,79,0,1,TRUE
+2023-01-22 16:30:00.000,Borussia Mönchengladbach,Bayer 04 Leverkusen,2,3,Moussa,Diaby,74,0,0,TRUE
+2022-11-12 14:30:00.000,Bayer 04 Leverkusen,VfB Stuttgart,2,0,Moussa,Diaby,87,1,0,TRUE
+2022-11-09 17:30:00.000,1.FC Köln,Bayer 04 Leverkusen,1,2,Moussa,Diaby,90,1,0,TRUE
+2022-11-06 14:30:00.000,Bayer 04 Leverkusen,1.FC Union Berlin,5,0,Moussa,Diaby,69,2,0,TRUE
+2022-11-01 17:45:00.000,Bayer 04 Leverkusen,FC Brügge,0,0,Moussa,Diaby,76,0,0,TRUE
+2022-10-29 13:30:00.000,RasenBallsport Leipzig,Bayer 04 Leverkusen,2,0,Moussa,Diaby,90,0,0,TRUE
+2022-10-26 19:00:00.000,Atlético Madrid,Bayer 04 Leverkusen,2,2,Moussa,Diaby,77,1,0,TRUE
+2022-10-22 13:30:00.000,Bayer 04 Leverkusen,VfL Wolfsburg,2,2,Moussa,Diaby,90,1,0,TRUE
+2022-10-15 13:30:00.000,Eintracht Frankfurt,Bayer 04 Leverkusen,5,1,Moussa,Diaby,73,0,0,TRUE
+2022-10-08 13:30:00.000,Bayer 04 Leverkusen,FC Schalke 04,4,0,Moussa,Diaby,64,1,2,TRUE
+2022-09-30 18:30:00.000,FC Bayern München,Bayer 04 Leverkusen,4,0,Moussa,Diaby,74,0,0,TRUE
+2022-09-17 13:30:00.000,Bayer 04 Leverkusen,SV Werder Bremen,1,1,Moussa,Diaby,90,0,0,TRUE
+2022-09-13 19:00:00.000,Bayer 04 Leverkusen,Atlético Madrid,2,0,Moussa,Diaby,89,1,0,TRUE
+2022-09-10 13:30:00.000,Hertha BSC,Bayer 04 Leverkusen,2,2,Moussa,Diaby,90,0,0,TRUE
+2022-09-03 13:30:00.000,Bayer 04 Leverkusen,SC Freiburg,2,3,Moussa,Diaby,90,0,0,TRUE
+2022-08-27 13:30:00.000,1.FSV Mainz 05,Bayer 04 Leverkusen,0,3,Moussa,Diaby,81,0,1,TRUE
+2022-08-20 13:30:00.000,Bayer 04 Leverkusen,TSG 1899 Hoffenheim,0,3,Moussa,Diaby,90,0,0,TRUE
+2022-08-13 13:30:00.000,Bayer 04 Leverkusen,FC Augsburg,1,2,Moussa,Diaby,90,0,0,TRUE
+2022-08-06 16:30:00.000,Borussia Dortmund,Bayer 04 Leverkusen,1,0,Moussa,Diaby,90,0,0,TRUE
+2022-07-30 13:31:00.000,SV 07 Elversberg,Bayer 04 Leverkusen,4,3,Moussa,Diaby,90,0,1,TRUE
+2022-06-13 18:45:00.000,Frankreich,Kroatien,0,1,Moussa,Diaby,0,0,0,FALSE
+2022-06-10 18:45:00.000,Österreich,Frankreich,1,1,Moussa,Diaby,90,0,0,TRUE
+2022-06-06 18:45:00.000,Kroatien,Frankreich,1,1,Moussa,Diaby,79,0,0,TRUE
+2022-06-03 18:45:00.000,Frankreich,Dänemark,1,2,Moussa,Diaby,1,0,0,FALSE
+2022-05-14 13:30:00.000,Bayer 04 Leverkusen,SC Freiburg,2,1,Moussa,Diaby,90,0,0,TRUE
+2022-05-07 13:30:00.000,TSG 1899 Hoffenheim,Bayer 04 Leverkusen,2,4,Moussa,Diaby,90,2,2,TRUE
+2022-05-02 18:30:00.000,Bayer 04 Leverkusen,Eintracht Frankfurt,2,0,Moussa,Diaby,88,0,2,TRUE
+2022-04-23 13:30:00.000,SpVgg Greuther Fürth,Bayer 04 Leverkusen,1,4,Moussa,Diaby,82,0,0,TRUE
+2022-04-17 17:30:00.000,Bayer 04 Leverkusen,RasenBallsport Leipzig,0,1,Moussa,Diaby,90,0,0,TRUE
+2022-04-10 13:30:00.000,VfL Bochum,Bayer 04 Leverkusen,0,0,Moussa,Diaby,90,0,0,TRUE
+2022-04-02 13:30:00.000,Bayer 04 Leverkusen,Hertha BSC,2,1,Moussa,Diaby,90,0,2,TRUE
+2022-03-29 19:15:00.000,Frankreich,Südafrika,5,0,Moussa,Diaby,25,0,0,FALSE
+2022-03-25 20:15:00.000,Frankreich,Elfenbeinküste,2,1,Moussa,Diaby,0,0,0,FALSE
+2022-03-20 16:30:00.000,VfL Wolfsburg,Bayer 04 Leverkusen,0,2,Moussa,Diaby,90,0,0,TRUE
+2022-03-17 17:45:00.000,Bayer 04 Leverkusen,Atalanta Bergamo,0,1,Moussa,Diaby,90,0,0,TRUE
+2022-03-13 14:30:00.000,Bayer 04 Leverkusen,1.FC Köln,0,1,Moussa,Diaby,90,0,0,TRUE
+2022-03-10 20:00:00.000,Atalanta Bergamo,Bayer 04 Leverkusen,3,2,Moussa,Diaby,90,1,0,TRUE
+2022-03-05 14:30:00.000,FC Bayern München,Bayer 04 Leverkusen,1,1,Moussa,Diaby,89,0,0,TRUE
+2022-02-26 14:30:00.000,Bayer 04 Leverkusen,Arminia Bielefeld,3,0,Moussa,Diaby,82,2,0,TRUE
+2022-02-18 19:30:00.000,1.FSV Mainz 05,Bayer 04 Leverkusen,3,2,Moussa,Diaby,90,0,1,TRUE
+2022-02-12 17:30:00.000,Bayer 04 Leverkusen,VfB Stuttgart,4,2,Moussa,Diaby,90,1,0,TRUE
+2022-02-06 14:30:00.000,Borussia Dortmund,Bayer 04 Leverkusen,2,5,Moussa,Diaby,89,1,0,TRUE
+2022-01-22 14:30:00.000,Bayer 04 Leverkusen,FC Augsburg,5,1,Moussa,Diaby,90,3,0,TRUE
+2022-01-15 17:30:00.000,Borussia Mönchengladbach,Bayer 04 Leverkusen,1,2,Moussa,Diaby,89,0,0,TRUE
+2022-01-08 14:30:00.000,Bayer 04 Leverkusen,1.FC Union Berlin,2,2,Moussa,Diaby,90,0,0,TRUE
+2023-05-14 13:30:00.000,VfB Stuttgart,Bayer 04 Leverkusen,1,1,Jeremie,Frimpong,90,0,0,TRUE
+2023-05-11 19:00:00.000,AS Rom,Bayer 04 Leverkusen,1,0,Jeremie,Frimpong,90,0,0,TRUE
+2023-05-05 18:30:00.000,Bayer 04 Leverkusen,1.FC Köln,1,2,Jeremie,Frimpong,90,0,0,TRUE
+2023-04-29 13:30:00.000,1.FC Union Berlin,Bayer 04 Leverkusen,0,0,Jeremie,Frimpong,90,0,0,TRUE
+2023-04-23 15:30:00.000,Bayer 04 Leverkusen,RasenBallsport Leipzig,2,0,Jeremie,Frimpong,90,0,1,TRUE
+2023-04-20 19:00:00.000,Royale Union Saint Gilloise,Bayer 04 Leverkusen,1,4,Jeremie,Frimpong,71,1,0,TRUE
+2023-04-16 17:30:00.000,VfL Wolfsburg,Bayer 04 Leverkusen,0,0,Jeremie,Frimpong,90,0,0,TRUE
+2023-04-13 19:00:00.000,Bayer 04 Leverkusen,Royale Union Saint Gilloise,1,1,Jeremie,Frimpong,90,0,0,TRUE
+2023-04-08 13:30:00.000,Bayer 04 Leverkusen,Eintracht Frankfurt,3,1,Jeremie,Frimpong,70,0,0,TRUE
+2023-04-01 13:30:00.000,FC Schalke 04,Bayer 04 Leverkusen,0,3,Jeremie,Frimpong,83,1,0,TRUE
+2023-03-19 16:30:00.000,Bayer 04 Leverkusen,FC Bayern München,2,1,Jeremie,Frimpong,90,0,0,TRUE
+2023-03-16 20:00:00.000,Ferencváros Budapest,Bayer 04 Leverkusen,0,2,Jeremie,Frimpong,82,0,0,TRUE
+2023-03-12 16:30:00.000,SV Werder Bremen,Bayer 04 Leverkusen,2,3,Jeremie,Frimpong,62,1,1,TRUE
+2023-03-09 17:45:00.000,Bayer 04 Leverkusen,Ferencváros Budapest,2,0,Jeremie,Frimpong,90,0,0,TRUE
+2023-03-05 14:30:00.000,Bayer 04 Leverkusen,Hertha BSC,4,1,Jeremie,Frimpong,29,1,1,TRUE
+2023-02-26 14:30:00.000,SC Freiburg,Bayer 04 Leverkusen,1,1,Jeremie,Frimpong,90,0,0,TRUE
+2023-02-23 17:45:00.000,AS Monaco,Bayer 04 Leverkusen,5,8,Jeremie,Frimpong,103,0,1,TRUE
+2023-02-19 18:30:00.000,Bayer 04 Leverkusen,1.FSV Mainz 05,2,3,Jeremie,Frimpong,45,0,0,FALSE
+2023-02-16 20:00:00.000,Bayer 04 Leverkusen,AS Monaco,2,3,Jeremie,Frimpong,88,0,1,TRUE
+2023-02-11 14:30:00.000,TSG 1899 Hoffenheim,Bayer 04 Leverkusen,1,3,Jeremie,Frimpong,86,0,2,TRUE
+2023-02-03 19:30:00.000,FC Augsburg,Bayer 04 Leverkusen,1,0,Jeremie,Frimpong,90,0,0,TRUE
+2023-01-29 16:30:00.000,Bayer 04 Leverkusen,Borussia Dortmund,0,2,Jeremie,Frimpong,90,0,0,TRUE
+2023-01-25 19:30:00.000,Bayer 04 Leverkusen,VfL Bochum,2,0,Jeremie,Frimpong,86,0,0,TRUE
+2023-01-22 16:30:00.000,Borussia Mönchengladbach,Bayer 04 Leverkusen,2,3,Jeremie,Frimpong,90,0,0,TRUE
+2022-12-09 19:00:00.000,Niederlande,Argentinien,5,6,Jeremie,Frimpong,0,0,0,FALSE
+2022-12-03 15:00:00.000,Niederlande,Vereinigte Staaten,3,1,Jeremie,Frimpong,0,0,0,FALSE
+2022-11-29 15:00:00.000,Niederlande,Katar,2,0,Jeremie,Frimpong,0,0,0,FALSE
+2022-11-25 16:00:00.000,Niederlande,Ecuador,1,1,Jeremie,Frimpong,0,0,0,FALSE
+2022-11-21 16:00:00.000,Senegal,Niederlande,0,2,Jeremie,Frimpong,0,0,0,FALSE
+2022-11-12 14:30:00.000,Bayer 04 Leverkusen,VfB Stuttgart,2,0,Jeremie,Frimpong,90,0,0,TRUE
+2022-11-09 17:30:00.000,1.FC Köln,Bayer 04 Leverkusen,1,2,Jeremie,Frimpong,90,0,1,TRUE
+2022-11-06 14:30:00.000,Bayer 04 Leverkusen,1.FC Union Berlin,5,0,Jeremie,Frimpong,77,0,1,TRUE
+2022-11-01 17:45:00.000,Bayer 04 Leverkusen,FC Brügge,0,0,Jeremie,Frimpong,90,0,0,TRUE
+2022-10-29 13:30:00.000,RasenBallsport Leipzig,Bayer 04 Leverkusen,2,0,Jeremie,Frimpong,36,0,0,FALSE
+2022-10-26 19:00:00.000,Atlético Madrid,Bayer 04 Leverkusen,2,2,Jeremie,Frimpong,90,0,0,TRUE
+2022-10-22 13:30:00.000,Bayer 04 Leverkusen,VfL Wolfsburg,2,2,Jeremie,Frimpong,90,1,0,TRUE
+2022-10-15 13:30:00.000,Eintracht Frankfurt,Bayer 04 Leverkusen,5,1,Jeremie,Frimpong,90,0,0,TRUE
+2022-10-08 13:30:00.000,Bayer 04 Leverkusen,FC Schalke 04,4,0,Jeremie,Frimpong,90,2,0,TRUE
+2022-09-30 18:30:00.000,FC Bayern München,Bayer 04 Leverkusen,4,0,Jeremie,Frimpong,45,0,0,TRUE
+2022-09-23 16:30:00.000,Belgien U21,Niederlande U21,1,2,Jeremie,Frimpong,90,0,0,TRUE
+2022-09-17 13:30:00.000,Bayer 04 Leverkusen,SV Werder Bremen,1,1,Jeremie,Frimpong,69,0,0,TRUE
+2022-09-13 19:00:00.000,Bayer 04 Leverkusen,Atlético Madrid,2,0,Jeremie,Frimpong,21,0,2,FALSE
+2022-09-10 13:30:00.000,Hertha BSC,Bayer 04 Leverkusen,2,2,Jeremie,Frimpong,75,0,0,TRUE
+2022-09-03 13:30:00.000,Bayer 04 Leverkusen,SC Freiburg,2,3,Jeremie,Frimpong,90,0,0,TRUE
+2022-08-27 13:30:00.000,1.FSV Mainz 05,Bayer 04 Leverkusen,0,3,Jeremie,Frimpong,71,2,0,TRUE
+2022-08-20 13:30:00.000,Bayer 04 Leverkusen,TSG 1899 Hoffenheim,0,3,Jeremie,Frimpong,90,0,0,TRUE
+2022-08-13 13:30:00.000,Bayer 04 Leverkusen,FC Augsburg,1,2,Jeremie,Frimpong,88,0,0,TRUE
+2022-08-06 16:30:00.000,Borussia Dortmund,Bayer 04 Leverkusen,1,0,Jeremie,Frimpong,90,0,0,TRUE
+2022-07-30 13:31:00.000,SV 07 Elversberg,Bayer 04 Leverkusen,4,3,Jeremie,Frimpong,76,0,0,TRUE
+2022-05-07 13:30:00.000,TSG 1899 Hoffenheim,Bayer 04 Leverkusen,2,4,Jeremie,Frimpong,0,0,0,FALSE
+2022-03-13 14:30:00.000,Bayer 04 Leverkusen,1.FC Köln,0,1,Jeremie,Frimpong,13,0,0,TRUE
+2022-03-10 20:00:00.000,Atalanta Bergamo,Bayer 04 Leverkusen,3,2,Jeremie,Frimpong,80,0,0,TRUE
+2022-03-05 14:30:00.000,FC Bayern München,Bayer 04 Leverkusen,1,1,Jeremie,Frimpong,90,0,0,TRUE
+2022-02-26 14:30:00.000,Bayer 04 Leverkusen,Arminia Bielefeld,3,0,Jeremie,Frimpong,76,0,0,TRUE
+2022-02-18 19:30:00.000,1.FSV Mainz 05,Bayer 04 Leverkusen,3,2,Jeremie,Frimpong,90,0,0,TRUE
+2022-02-12 17:30:00.000,Bayer 04 Leverkusen,VfB Stuttgart,4,2,Jeremie,Frimpong,90,0,0,TRUE
+2022-02-06 14:30:00.000,Borussia Dortmund,Bayer 04 Leverkusen,2,5,Jeremie,Frimpong,88,0,1,TRUE
+2022-01-22 14:30:00.000,Bayer 04 Leverkusen,FC Augsburg,5,1,Jeremie,Frimpong,90,0,1,TRUE
+2022-01-15 17:30:00.000,Borussia Mönchengladbach,Bayer 04 Leverkusen,1,2,Jeremie,Frimpong,56,0,0,TRUE
+2022-01-08 14:30:00.000,Bayer 04 Leverkusen,1.FC Union Berlin,2,2,Jeremie,Frimpong,83,0,0,TRUE
+2023-05-14 13:30:00.000,VfB Stuttgart,Bayer 04 Leverkusen,1,1,Piero,Hincapié,90,0,0,TRUE
+2023-05-11 19:00:00.000,AS Rom,Bayer 04 Leverkusen,1,0,Piero,Hincapié,90,0,0,TRUE
+2023-05-05 18:30:00.000,Bayer 04 Leverkusen,1.FC Köln,1,2,Piero,Hincapié,90,0,0,TRUE
+2023-04-29 13:30:00.000,1.FC Union Berlin,Bayer 04 Leverkusen,0,0,Piero,Hincapié,90,0,0,TRUE
+2023-04-23 15:30:00.000,Bayer 04 Leverkusen,RasenBallsport Leipzig,2,0,Piero,Hincapié,79,0,0,TRUE
+2023-04-20 19:00:00.000,Royale Union Saint Gilloise,Bayer 04 Leverkusen,1,4,Piero,Hincapié,90,0,0,TRUE
+2023-04-16 17:30:00.000,VfL Wolfsburg,Bayer 04 Leverkusen,0,0,Piero,Hincapié,90,0,0,TRUE
+2023-04-13 19:00:00.000,Bayer 04 Leverkusen,Royale Union Saint Gilloise,1,1,Piero,Hincapié,90,0,0,TRUE
+2023-04-08 13:30:00.000,Bayer 04 Leverkusen,Eintracht Frankfurt,3,1,Piero,Hincapié,88,0,0,TRUE
+2023-04-01 13:30:00.000,FC Schalke 04,Bayer 04 Leverkusen,0,3,Piero,Hincapié,83,0,0,TRUE
+2023-03-28 08:30:00.000,Australien,Ecuador,1,2,Piero,Hincapié,90,0,0,TRUE
+2023-03-24 09:00:00.000,Australien,Ecuador,3,1,Piero,Hincapié,90,0,0,TRUE
+2023-03-19 16:30:00.000,Bayer 04 Leverkusen,FC Bayern München,2,1,Piero,Hincapié,90,0,0,TRUE
+2023-03-16 20:00:00.000,Ferencváros Budapest,Bayer 04 Leverkusen,0,2,Piero,Hincapié,82,0,0,TRUE
+2023-03-12 16:30:00.000,SV Werder Bremen,Bayer 04 Leverkusen,2,3,Piero,Hincapié,90,0,1,TRUE
+2023-03-09 17:45:00.000,Bayer 04 Leverkusen,Ferencváros Budapest,2,0,Piero,Hincapié,90,0,0,TRUE
+2023-03-05 14:30:00.000,Bayer 04 Leverkusen,Hertha BSC,4,1,Piero,Hincapié,82,0,0,TRUE
+2023-02-23 17:45:00.000,AS Monaco,Bayer 04 Leverkusen,5,8,Piero,Hincapié,120,0,0,TRUE
+2023-02-19 18:30:00.000,Bayer 04 Leverkusen,1.FSV Mainz 05,2,3,Piero,Hincapié,45,0,0,FALSE
+2023-02-16 20:00:00.000,Bayer 04 Leverkusen,AS Monaco,2,3,Piero,Hincapié,90,0,0,TRUE
+2023-02-11 14:30:00.000,TSG 1899 Hoffenheim,Bayer 04 Leverkusen,1,3,Piero,Hincapié,90,0,0,TRUE
+2023-02-03 19:30:00.000,FC Augsburg,Bayer 04 Leverkusen,1,0,Piero,Hincapié,89,0,0,TRUE
+2023-01-29 16:30:00.000,Bayer 04 Leverkusen,Borussia Dortmund,0,2,Piero,Hincapié,90,0,0,TRUE
+2023-01-25 19:30:00.000,Bayer 04 Leverkusen,VfL Bochum,2,0,Piero,Hincapié,90,0,0,TRUE
+2023-01-22 16:30:00.000,Borussia Mönchengladbach,Bayer 04 Leverkusen,2,3,Piero,Hincapié,90,0,0,TRUE
+2022-11-29 15:00:00.000,Ecuador,Senegal,1,2,Piero,Hincapié,90,0,0,TRUE
+2022-11-25 16:00:00.000,Niederlande,Ecuador,1,1,Piero,Hincapié,90,0,0,TRUE
+2022-11-20 16:00:00.000,Katar,Ecuador,0,2,Piero,Hincapié,90,0,0,TRUE
+2022-11-12 14:30:00.000,Bayer 04 Leverkusen,VfB Stuttgart,2,0,Piero,Hincapié,90,0,0,TRUE
+2022-11-09 17:30:00.000,1.FC Köln,Bayer 04 Leverkusen,1,2,Piero,Hincapié,90,0,0,TRUE
+2022-11-06 14:30:00.000,Bayer 04 Leverkusen,1.FC Union Berlin,5,0,Piero,Hincapié,90,0,0,TRUE
+2022-10-29 13:30:00.000,RasenBallsport Leipzig,Bayer 04 Leverkusen,2,0,Piero,Hincapié,90,0,0,TRUE
+2022-10-26 19:00:00.000,Atlético Madrid,Bayer 04 Leverkusen,2,2,Piero,Hincapié,90,0,0,TRUE
+2022-10-15 13:30:00.000,Eintracht Frankfurt,Bayer 04 Leverkusen,5,1,Piero,Hincapié,72,1,0,TRUE
+2022-10-08 13:30:00.000,Bayer 04 Leverkusen,FC Schalke 04,4,0,Piero,Hincapié,88,0,0,TRUE
+2022-09-30 18:30:00.000,FC Bayern München,Bayer 04 Leverkusen,4,0,Piero,Hincapié,45,0,0,FALSE
+2022-09-17 13:30:00.000,Bayer 04 Leverkusen,SV Werder Bremen,1,1,Piero,Hincapié,84,0,0,TRUE
+2022-09-13 19:00:00.000,Bayer 04 Leverkusen,Atlético Madrid,2,0,Piero,Hincapié,90,0,0,TRUE
+2022-09-10 13:30:00.000,Hertha BSC,Bayer 04 Leverkusen,2,2,Piero,Hincapié,90,0,0,TRUE
+2022-08-27 13:30:00.000,1.FSV Mainz 05,Bayer 04 Leverkusen,0,3,Piero,Hincapié,77,0,0,TRUE
+2022-08-20 13:30:00.000,Bayer 04 Leverkusen,TSG 1899 Hoffenheim,0,3,Piero,Hincapié,90,0,0,TRUE
+2022-08-13 13:30:00.000,Bayer 04 Leverkusen,FC Augsburg,1,2,Piero,Hincapié,27,0,0,FALSE
+2022-08-06 16:30:00.000,Borussia Dortmund,Bayer 04 Leverkusen,1,0,Piero,Hincapié,79,0,0,TRUE
+2022-07-30 13:31:00.000,SV 07 Elversberg,Bayer 04 Leverkusen,4,3,Piero,Hincapié,0,0,0,FALSE
+2022-06-12 00:00:00.000,Ecuador,Kap Verde,1,0,Piero,Hincapié,90,0,0,TRUE
+2022-06-05 23:30:00.000,Mexiko,Ecuador,0,0,Piero,Hincapié,90,0,0,TRUE
+2022-06-03 00:30:00.000,Ecuador,Nigeria,1,0,Piero,Hincapié,90,0,0,TRUE
+2022-06-01 22:00:00.000,Nigeria,Ecuador,,,Piero,Hincapié,90,0,0,TRUE
+2022-05-14 13:30:00.000,Bayer 04 Leverkusen,SC Freiburg,2,1,Piero,Hincapié,6,0,0,FALSE
+2022-05-07 13:30:00.000,TSG 1899 Hoffenheim,Bayer 04 Leverkusen,2,4,Piero,Hincapié,45,0,0,TRUE
+2022-05-02 18:30:00.000,Bayer 04 Leverkusen,Eintracht Frankfurt,2,0,Piero,Hincapié,90,0,0,TRUE
+2022-04-17 17:30:00.000,Bayer 04 Leverkusen,RasenBallsport Leipzig,0,1,Piero,Hincapié,88,0,0,TRUE
+2022-04-10 13:30:00.000,VfL Bochum,Bayer 04 Leverkusen,0,0,Piero,Hincapié,90,0,0,TRUE
+2022-04-02 13:30:00.000,Bayer 04 Leverkusen,Hertha BSC,2,1,Piero,Hincapié,17,0,0,FALSE
+2022-03-29 23:30:00.000,Ecuador,Argentinien,1,1,Piero,Hincapié,90,0,0,TRUE
+2022-03-24 23:30:00.000,Paraguay,Ecuador,3,1,Piero,Hincapié,90,0,1,TRUE
+2022-03-20 16:30:00.000,VfL Wolfsburg,Bayer 04 Leverkusen,0,2,Piero,Hincapié,25,0,0,FALSE
+2022-03-17 17:45:00.000,Bayer 04 Leverkusen,Atalanta Bergamo,0,1,Piero,Hincapié,90,0,0,TRUE
+2022-03-13 14:30:00.000,Bayer 04 Leverkusen,1.FC Köln,0,1,Piero,Hincapié,90,0,0,TRUE
+2022-03-10 20:00:00.000,Atalanta Bergamo,Bayer 04 Leverkusen,3,2,Piero,Hincapié,0,0,0,FALSE
+2022-03-05 14:30:00.000,FC Bayern München,Bayer 04 Leverkusen,1,1,Piero,Hincapié,90,0,0,TRUE
+2022-02-26 14:30:00.000,Bayer 04 Leverkusen,Arminia Bielefeld,3,0,Piero,Hincapié,8,0,0,FALSE
+2022-02-18 19:30:00.000,1.FSV Mainz 05,Bayer 04 Leverkusen,3,2,Piero,Hincapié,90,0,0,TRUE
+2022-02-12 17:30:00.000,Bayer 04 Leverkusen,VfB Stuttgart,4,2,Piero,Hincapié,90,0,0,TRUE
+2022-02-06 14:30:00.000,Borussia Dortmund,Bayer 04 Leverkusen,2,5,Piero,Hincapié,90,0,0,TRUE
+2022-02-02 02:00:00.000,Peru,Ecuador,1,1,Piero,Hincapié,90,0,0,TRUE
+2022-01-27 21:00:00.000,Ecuador,Brasilien,1,1,Piero,Hincapié,90,0,0,TRUE
+2022-01-22 14:30:00.000,Bayer 04 Leverkusen,FC Augsburg,5,1,Piero,Hincapié,90,0,0,TRUE
+2022-01-15 17:30:00.000,Borussia Mönchengladbach,Bayer 04 Leverkusen,1,2,Piero,Hincapié,90,0,0,TRUE
+2022-01-08 14:30:00.000,Bayer 04 Leverkusen,1.FC Union Berlin,2,2,Piero,Hincapié,90,0,0,TRUE
+2023-05-13 19:00:00.000,FC Paris Saint-Germain,AC Ajaccio,5,0,Lionel,Messi,90,0,0,TRUE
+2023-04-30 15:05:00.000,FC Paris Saint-Germain,FC Lorient,1,3,Lionel,Messi,90,0,0,TRUE
+2023-04-21 19:00:00.000,Angers SCO,FC Paris Saint-Germain,1,2,Lionel,Messi,90,0,1,TRUE
+2023-04-15 19:00:00.000,FC Paris Saint-Germain,RC Lens,3,1,Lionel,Messi,90,1,0,TRUE
+2023-04-08 19:00:00.000,OGC Nizza,FC Paris Saint-Germain,0,2,Lionel,Messi,90,1,1,TRUE
+2023-04-02 18:45:00.000,FC Paris Saint-Germain,Olympique Lyon,0,1,Lionel,Messi,90,0,0,TRUE
+2023-03-28 23:30:00.000,Argentinien,Curaçao,7,0,Lionel,Messi,90,3,1,TRUE
+2023-03-24 00:00:00.000,Argentinien,Panama,2,0,Lionel,Messi,90,1,0,TRUE
+2023-03-19 16:05:00.000,FC Paris Saint-Germain,Stade Rennais FC,0,2,Lionel,Messi,90,0,0,TRUE
+2023-03-11 20:00:00.000,Stade Brest 29,FC Paris Saint-Germain,1,2,Lionel,Messi,90,0,1,TRUE
+2023-03-08 20:00:00.000,FC Bayern München,FC Paris Saint-Germain,2,0,Lionel,Messi,90,0,0,TRUE
+2023-03-04 20:00:00.000,FC Paris Saint-Germain,FC Nantes,4,2,Lionel,Messi,90,1,0,TRUE
+2023-02-26 19:45:00.000,Olympique Marseille,FC Paris Saint-Germain,0,3,Lionel,Messi,90,1,2,TRUE
+2023-02-19 12:00:00.000,FC Paris Saint-Germain,LOSC Lille,4,3,Lionel,Messi,90,1,0,TRUE
+2023-02-14 20:00:00.000,FC Paris Saint-Germain,FC Bayern München,0,1,Lionel,Messi,90,0,0,TRUE
+2023-02-08 20:10:00.000,Olympique Marseille,FC Paris Saint-Germain,2,1,Lionel,Messi,90,0,0,TRUE
+2023-02-04 16:00:00.000,FC Paris Saint-Germain,FC Toulouse,2,1,Lionel,Messi,90,1,0,TRUE
+2023-02-01 20:00:00.000,Montpellier HSC,FC Paris Saint-Germain,1,3,Lionel,Messi,90,1,0,TRUE
+2023-01-29 19:45:00.000,FC Paris Saint-Germain,Stade Reims,1,1,Lionel,Messi,90,0,0,TRUE
+2023-01-15 19:45:00.000,Stade Rennais FC,FC Paris Saint-Germain,1,0,Lionel,Messi,90,0,0,TRUE
+2023-01-11 20:00:00.000,FC Paris Saint-Germain,Angers SCO,2,0,Lionel,Messi,90,1,0,TRUE
+2022-12-18 15:00:00.000,Argentinien,Frankreich,7,5,Lionel,Messi,120,2,0,TRUE
+2022-12-13 19:00:00.000,Argentinien,Kroatien,3,0,Lionel,Messi,90,1,1,TRUE
+2022-12-09 19:00:00.000,Niederlande,Argentinien,5,6,Lionel,Messi,120,1,1,TRUE
+2022-12-03 19:00:00.000,Argentinien,Australien,2,1,Lionel,Messi,90,1,0,TRUE
+2022-11-30 19:00:00.000,Polen,Argentinien,0,2,Lionel,Messi,90,0,0,TRUE
+2022-11-26 19:00:00.000,Argentinien,Mexiko,2,0,Lionel,Messi,90,1,1,TRUE
+2022-11-22 10:00:00.000,Argentinien,Saudi-Arabien,1,2,Lionel,Messi,90,1,0,TRUE
+2022-11-16 15:30:00.000,Vereinigte Arabische Emirate,Argentinien,0,5,Lionel,Messi,90,1,1,TRUE
+2022-11-13 12:00:00.000,FC Paris Saint-Germain,AJ Auxerre,5,0,Lionel,Messi,75,0,0,TRUE
+2022-11-02 20:00:00.000,Juventus Turin,FC Paris Saint-Germain,1,2,Lionel,Messi,90,0,1,TRUE
+2022-10-29 15:00:00.000,FC Paris Saint-Germain,ES Troyes AC,4,3,Lionel,Messi,90,1,1,TRUE
+2022-10-25 19:00:00.000,FC Paris Saint-Germain,Maccabi Haifa,7,2,Lionel,Messi,90,2,2,TRUE
+2022-10-21 19:00:00.000,AC Ajaccio,FC Paris Saint-Germain,0,3,Lionel,Messi,90,1,2,TRUE
+2022-10-16 18:45:00.000,FC Paris Saint-Germain,Olympique Marseille,1,0,Lionel,Messi,79,0,0,TRUE
+2022-10-01 19:00:00.000,FC Paris Saint-Germain,OGC Nizza,2,1,Lionel,Messi,88,1,0,TRUE
+2022-09-18 18:45:00.000,Olympique Lyon,FC Paris Saint-Germain,0,1,Lionel,Messi,90,1,0,TRUE
+2022-09-10 15:00:00.000,FC Paris Saint-Germain,Stade Brest 29,1,0,Lionel,Messi,90,0,1,TRUE
+2022-09-03 19:00:00.000,FC Nantes,FC Paris Saint-Germain,0,3,Lionel,Messi,90,0,2,TRUE
+2022-08-31 19:00:00.000,FC Toulouse,FC Paris Saint-Germain,0,3,Lionel,Messi,83,0,2,TRUE
+2022-08-28 18:45:00.000,FC Paris Saint-Germain,AS Monaco,1,1,Lionel,Messi,87,0,0,TRUE
+2022-08-21 18:45:00.000,LOSC Lille,FC Paris Saint-Germain,1,7,Lionel,Messi,90,1,1,TRUE
+2022-08-13 19:00:00.000,FC Paris Saint-Germain,Montpellier HSC,5,2,Lionel,Messi,90,0,0,TRUE
+2022-08-06 19:00:00.000,Clermont Foot 63,FC Paris Saint-Germain,0,5,Lionel,Messi,90,2,1,TRUE
+2022-07-31 18:00:00.000,FC Paris Saint-Germain,FC Nantes,4,0,Lionel,Messi,90,1,0,TRUE
+2022-06-05 18:00:00.000,Argentinien,Estland,5,0,Lionel,Messi,90,5,0,TRUE
+2022-06-01 18:45:00.000,Italien,Argentinien,0,3,Lionel,Messi,90,0,2,TRUE
+2022-05-21 19:00:00.000,FC Paris Saint-Germain,FC Metz,5,0,Lionel,Messi,90,0,1,TRUE
+2022-05-14 19:00:00.000,Montpellier HSC,FC Paris Saint-Germain,0,4,Lionel,Messi,90,2,0,TRUE
+2022-05-08 18:45:00.000,FC Paris Saint-Germain,ES Troyes AC,2,2,Lionel,Messi,90,0,0,TRUE
+2022-04-29 19:00:00.000,RC Straßburg Alsace,FC Paris Saint-Germain,3,3,Lionel,Messi,90,0,0,TRUE
+2022-04-23 19:00:00.000,FC Paris Saint-Germain,RC Lens,1,1,Lionel,Messi,90,1,0,TRUE
+2022-04-17 18:45:00.000,FC Paris Saint-Germain,Olympique Marseille,2,1,Lionel,Messi,90,0,0,TRUE
+2022-04-09 19:00:00.000,Clermont Foot 63,FC Paris Saint-Germain,1,6,Lionel,Messi,90,0,3,TRUE
+2022-04-03 18:45:00.000,FC Paris Saint-Germain,FC Lorient,5,1,Lionel,Messi,90,1,0,TRUE
+2022-03-29 23:30:00.000,Ecuador,Argentinien,1,1,Lionel,Messi,90,0,0,TRUE
+2022-03-25 23:30:00.000,Argentinien,Venezuela,3,0,Lionel,Messi,90,1,0,TRUE
+2022-03-13 12:00:00.000,FC Paris Saint-Germain,FC Girondins Bordeaux,3,0,Lionel,Messi,90,0,0,TRUE
+2022-03-09 20:00:00.000,Real Madrid,FC Paris Saint-Germain,3,1,Lionel,Messi,90,0,0,TRUE
+2022-02-26 20:00:00.000,FC Paris Saint-Germain,AS Saint-Étienne,3,1,Lionel,Messi,90,0,2,TRUE
+2022-02-19 20:00:00.000,FC Nantes,FC Paris Saint-Germain,3,1,Lionel,Messi,90,0,1,TRUE
+2022-02-15 20:00:00.000,FC Paris Saint-Germain,Real Madrid,1,0,Lionel,Messi,90,0,0,TRUE
+2022-02-11 20:00:00.000,FC Paris Saint-Germain,FC Stade Rennes,1,0,Lionel,Messi,90,0,1,TRUE
+2022-02-06 19:45:00.000,LOSC Lille,FC Paris Saint-Germain,1,5,Lionel,Messi,90,1,1,TRUE
+2022-01-31 20:15:00.000,FC Paris Saint-Germain,OGC Nizza,5,6,Lionel,Messi,90,0,0,TRUE
+2022-01-23 19:45:00.000,FC Paris Saint-Germain,Stade Reims,4,0,Lionel,Messi,27,0,1,FALSE
+2023-05-13 14:00:00.000,FC Chelsea,Nottingham Forest,2,2,Mykhaylo,Mudryk,0,0,0,FALSE
+2023-05-06 14:00:00.000,AFC Bournemouth,FC Chelsea,1,3,Mykhaylo,Mudryk,63,0,0,TRUE
+2023-05-02 19:00:00.000,FC Arsenal,FC Chelsea,3,1,Mykhaylo,Mudryk,19,0,0,FALSE
+2023-04-26 18:45:00.000,FC Chelsea,FC Brentford,0,2,Mykhaylo,Mudryk,45,0,0,FALSE
+2023-04-18 19:00:00.000,FC Chelsea,Real Madrid,0,2,Mykhaylo,Mudryk,22,0,0,FALSE
+2023-04-15 14:00:00.000,FC Chelsea,Brighton & Hove Albion,1,2,Mykhaylo,Mudryk,90,0,1,TRUE
+2023-04-12 19:00:00.000,Real Madrid,FC Chelsea,2,0,Mykhaylo,Mudryk,0,0,0,FALSE
+2023-04-08 14:00:00.000,Wolverhampton Wanderers,FC Chelsea,1,0,Mykhaylo,Mudryk,22,0,0,FALSE
+2023-04-04 19:00:00.000,FC Chelsea,FC Liverpool,0,0,Mykhaylo,Mudryk,12,0,0,FALSE
+2023-04-01 16:30:00.000,FC Chelsea,Aston Villa,0,2,Mykhaylo,Mudryk,57,0,0,TRUE
+2023-03-26 16:00:00.000,England,Ukraine,2,0,Mykhaylo,Mudryk,61,0,0,TRUE
+2023-03-18 17:30:00.000,FC Chelsea,FC Everton,2,2,Mykhaylo,Mudryk,0,0,0,FALSE
+2023-03-11 15:00:00.000,Leicester City,FC Chelsea,1,3,Mykhaylo,Mudryk,82,0,1,TRUE
+2023-03-07 20:00:00.000,FC Chelsea,Borussia Dortmund,2,0,Mykhaylo,Mudryk,0,0,0,FALSE
+2023-03-04 15:00:00.000,FC Chelsea,Leeds United,1,0,Mykhaylo,Mudryk,0,0,0,FALSE
+2023-02-26 13:30:00.000,Tottenham Hotspur,FC Chelsea,2,0,Mykhaylo,Mudryk,7,0,0,FALSE
+2023-02-18 15:00:00.000,FC Chelsea,FC Southampton,0,1,Mykhaylo,Mudryk,26,0,0,FALSE
+2023-02-15 20:00:00.000,Borussia Dortmund,FC Chelsea,1,0,Mykhaylo,Mudryk,71,0,0,TRUE
+2023-02-11 12:30:00.000,West Ham United,FC Chelsea,1,1,Mykhaylo,Mudryk,67,0,0,TRUE
+2023-02-03 20:00:00.000,FC Chelsea,FC Fulham,0,0,Mykhaylo,Mudryk,45,0,0,TRUE
+2023-01-21 12:30:00.000,FC Liverpool,FC Chelsea,0,0,Mykhaylo,Mudryk,35,0,0,FALSE
+2022-11-23 14:00:00.000,Shakhtar Donetsk,Vorskla Poltava,3,2,Mykhaylo,Mudryk,90,1,0,TRUE
+2022-11-19 11:00:00.000,SK Dnipro-1,Shakhtar Donetsk,2,1,Mykhaylo,Mudryk,90,1,0,TRUE
+2022-11-13 14:00:00.000,Shakhtar Donetsk,Zorya Lugansk,2,2,Mykhaylo,Mudryk,90,0,1,TRUE
+2022-11-09 17:00:00.000,NK Veres Rivne,Shakhtar Donetsk,0,2,Mykhaylo,Mudryk,89,1,0,TRUE
+2022-11-05 12:00:00.000,Shakhtar Donetsk,Ingulets Petrove,3,0,Mykhaylo,Mudryk,17,0,0,FALSE
+2022-11-02 17:45:00.000,Shakhtar Donetsk,RasenBallsport Leipzig,0,4,Mykhaylo,Mudryk,74,0,0,TRUE
+2022-10-29 14:00:00.000,Shakhtar Donetsk,FK Oleksandriya,2,2,Mykhaylo,Mudryk,90,1,0,TRUE
+2022-10-25 19:00:00.000,Celtic Glasgow,Shakhtar Donetsk,1,1,Mykhaylo,Mudryk,90,1,0,TRUE
+2022-10-19 14:00:00.000,Shakhtar Donetsk,Kolos Kovalivka,3,0,Mykhaylo,Mudryk,62,2,0,TRUE
+2022-10-16 14:00:00.000,Shakhtar Donetsk,Dynamo Kiew,3,1,Mykhaylo,Mudryk,81,1,1,TRUE
+2022-10-01 14:00:00.000,Metalist Kharkiv,Shakhtar Donetsk,1,6,Mykhaylo,Mudryk,90,0,3,TRUE
+2022-09-27 18:45:00.000,Ukraine,Schottland,0,0,Mykhaylo,Mudryk,75,0,0,TRUE
+2022-09-24 13:00:00.000,Armenien,Ukraine,0,5,Mykhaylo,Mudryk,19,0,0,FALSE
+2022-09-21 18:45:00.000,Schottland,Ukraine,3,0,Mykhaylo,Mudryk,84,0,0,TRUE
+2022-09-02 14:00:00.000,Rukh Lviv,Shakhtar Donetsk,0,1,Mykhaylo,Mudryk,35,0,0,TRUE
+2022-08-28 12:00:00.000,Shakhtar Donetsk,Kryvbas Kryvyi Rig,1,0,Mykhaylo,Mudryk,90,0,1,TRUE
+2022-08-23 10:00:00.000,Shakhtar Donetsk,Metalist 1925 Kharkiv,0,0,Mykhaylo,Mudryk,90,0,0,TRUE
+2022-06-14 18:45:00.000,Ukraine,Irland,1,1,Mykhaylo,Mudryk,62,0,0,FALSE
+2022-06-11 13:00:00.000,Ukraine,Armenien,3,0,Mykhaylo,Mudryk,78,0,0,TRUE
+2022-06-08 18:45:00.000,Irland,Ukraine,0,1,Mykhaylo,Mudryk,72,0,0,TRUE
+2022-06-05 16:00:00.000,Wales,Ukraine,1,0,Mykhaylo,Mudryk,13,0,0,FALSE
+2022-06-01 18:45:00.000,Schottland,Ukraine,1,3,Mykhaylo,Mudryk,18,0,0,FALSE
+2023-05-14 13:30:00.000,VfB Stuttgart,Bayer 04 Leverkusen,1,1,Exequiel,Palacios,90,1,0,TRUE
+2023-05-11 19:00:00.000,AS Rom,Bayer 04 Leverkusen,1,0,Exequiel,Palacios,90,0,0,TRUE
+2023-05-05 18:30:00.000,Bayer 04 Leverkusen,1.FC Köln,1,2,Exequiel,Palacios,33,0,0,FALSE
+2023-04-13 19:00:00.000,Bayer 04 Leverkusen,Royale Union Saint Gilloise,1,1,Exequiel,Palacios,45,0,0,TRUE
+2023-04-08 13:30:00.000,Bayer 04 Leverkusen,Eintracht Frankfurt,3,1,Exequiel,Palacios,90,0,0,TRUE
+2023-04-01 13:30:00.000,FC Schalke 04,Bayer 04 Leverkusen,0,3,Exequiel,Palacios,66,0,0,TRUE
+2023-03-28 23:30:00.000,Argentinien,Curaçao,7,0,Exequiel,Palacios,40,0,0,FALSE
+2023-03-24 00:00:00.000,Argentinien,Panama,2,0,Exequiel,Palacios,0,0,0,FALSE
+2023-03-19 16:30:00.000,Bayer 04 Leverkusen,FC Bayern München,2,1,Exequiel,Palacios,90,2,0,TRUE
+2023-03-16 20:00:00.000,Ferencváros Budapest,Bayer 04 Leverkusen,0,2,Exequiel,Palacios,90,0,0,TRUE
+2023-03-12 16:30:00.000,SV Werder Bremen,Bayer 04 Leverkusen,2,3,Exequiel,Palacios,90,0,1,TRUE
+2023-03-05 14:30:00.000,Bayer 04 Leverkusen,Hertha BSC,4,1,Exequiel,Palacios,90,0,0,TRUE
+2023-02-26 14:30:00.000,SC Freiburg,Bayer 04 Leverkusen,1,1,Exequiel,Palacios,90,0,0,TRUE
+2023-02-23 17:45:00.000,AS Monaco,Bayer 04 Leverkusen,5,8,Exequiel,Palacios,120,1,0,TRUE
+2023-02-19 18:30:00.000,Bayer 04 Leverkusen,1.FSV Mainz 05,2,3,Exequiel,Palacios,0,0,0,FALSE
+2023-02-16 20:00:00.000,Bayer 04 Leverkusen,AS Monaco,2,3,Exequiel,Palacios,90,0,0,TRUE
+2023-02-11 14:30:00.000,TSG 1899 Hoffenheim,Bayer 04 Leverkusen,1,3,Exequiel,Palacios,17,0,0,FALSE
+2023-02-03 19:30:00.000,FC Augsburg,Bayer 04 Leverkusen,1,0,Exequiel,Palacios,90,0,0,TRUE
+2023-01-29 16:30:00.000,Bayer 04 Leverkusen,Borussia Dortmund,0,2,Exequiel,Palacios,70,0,0,TRUE
+2023-01-25 19:30:00.000,Bayer 04 Leverkusen,VfL Bochum,2,0,Exequiel,Palacios,4,0,0,FALSE
+2023-01-22 16:30:00.000,Borussia Mönchengladbach,Bayer 04 Leverkusen,2,3,Exequiel,Palacios,90,0,0,TRUE
+2022-12-18 15:00:00.000,Argentinien,Frankreich,7,5,Exequiel,Palacios,0,0,0,FALSE
+2022-12-13 19:00:00.000,Argentinien,Kroatien,3,0,Exequiel,Palacios,16,0,0,FALSE
+2022-12-09 19:00:00.000,Niederlande,Argentinien,5,6,Exequiel,Palacios,0,0,0,FALSE
+2022-12-03 19:00:00.000,Argentinien,Australien,2,1,Exequiel,Palacios,10,0,0,FALSE
+2022-11-30 19:00:00.000,Polen,Argentinien,0,2,Exequiel,Palacios,0,0,0,FALSE
+2022-11-26 19:00:00.000,Argentinien,Mexiko,2,0,Exequiel,Palacios,21,0,0,FALSE
+2022-11-22 10:00:00.000,Argentinien,Saudi-Arabien,1,2,Exequiel,Palacios,0,0,0,FALSE
+2022-11-16 15:30:00.000,Vereinigte Arabische Emirate,Argentinien,0,5,Exequiel,Palacios,0,0,0,FALSE
+2022-11-12 14:30:00.000,Bayer 04 Leverkusen,VfB Stuttgart,2,0,Exequiel,Palacios,90,0,1,TRUE
+2022-11-09 17:30:00.000,1.FC Köln,Bayer 04 Leverkusen,1,2,Exequiel,Palacios,59,0,0,TRUE
+2022-11-06 14:30:00.000,Bayer 04 Leverkusen,1.FC Union Berlin,5,0,Exequiel,Palacios,35,0,0,FALSE
+2022-11-01 17:45:00.000,Bayer 04 Leverkusen,FC Brügge,0,0,Exequiel,Palacios,45,0,0,TRUE
+2022-10-29 13:30:00.000,RasenBallsport Leipzig,Bayer 04 Leverkusen,2,0,Exequiel,Palacios,25,0,0,FALSE
+2022-09-10 13:30:00.000,Hertha BSC,Bayer 04 Leverkusen,2,2,Exequiel,Palacios,41,0,0,TRUE
+2022-09-03 13:30:00.000,Bayer 04 Leverkusen,SC Freiburg,2,3,Exequiel,Palacios,60,0,0,TRUE
+2022-08-27 13:30:00.000,1.FSV Mainz 05,Bayer 04 Leverkusen,0,3,Exequiel,Palacios,71,1,0,TRUE
+2022-08-20 13:30:00.000,Bayer 04 Leverkusen,TSG 1899 Hoffenheim,0,3,Exequiel,Palacios,45,0,0,FALSE
+2022-08-13 13:30:00.000,Bayer 04 Leverkusen,FC Augsburg,1,2,Exequiel,Palacios,63,0,0,TRUE
+2022-08-06 16:30:00.000,Borussia Dortmund,Bayer 04 Leverkusen,1,0,Exequiel,Palacios,79,0,0,TRUE
+2022-07-30 13:31:00.000,SV 07 Elversberg,Bayer 04 Leverkusen,4,3,Exequiel,Palacios,21,0,0,FALSE
+2022-06-05 18:00:00.000,Argentinien,Estland,5,0,Exequiel,Palacios,28,0,0,FALSE
+2022-06-01 18:45:00.000,Italien,Argentinien,0,3,Exequiel,Palacios,14,0,0,FALSE
+2022-05-14 13:30:00.000,Bayer 04 Leverkusen,SC Freiburg,2,1,Exequiel,Palacios,90,1,0,TRUE
+2022-05-07 13:30:00.000,TSG 1899 Hoffenheim,Bayer 04 Leverkusen,2,4,Exequiel,Palacios,26,0,2,FALSE
+2022-05-02 18:30:00.000,Bayer 04 Leverkusen,Eintracht Frankfurt,2,0,Exequiel,Palacios,8,0,0,FALSE
+2022-04-23 13:30:00.000,SpVgg Greuther Fürth,Bayer 04 Leverkusen,1,4,Exequiel,Palacios,13,1,0,FALSE
+2022-04-17 17:30:00.000,Bayer 04 Leverkusen,RasenBallsport Leipzig,0,1,Exequiel,Palacios,74,0,0,TRUE
+2022-04-10 13:30:00.000,VfL Bochum,Bayer 04 Leverkusen,0,0,Exequiel,Palacios,13,0,0,FALSE
+2022-04-02 13:30:00.000,Bayer 04 Leverkusen,Hertha BSC,2,1,Exequiel,Palacios,25,0,0,FALSE
+2022-03-29 23:30:00.000,Ecuador,Argentinien,1,1,Exequiel,Palacios,31,0,0,FALSE
+2022-03-25 23:30:00.000,Argentinien,Venezuela,3,0,Exequiel,Palacios,0,0,0,FALSE
+2022-03-20 16:30:00.000,VfL Wolfsburg,Bayer 04 Leverkusen,0,2,Exequiel,Palacios,0,0,0,FALSE
+2022-03-17 17:45:00.000,Bayer 04 Leverkusen,Atalanta Bergamo,0,1,Exequiel,Palacios,61,0,0,TRUE
+2022-03-13 14:30:00.000,Bayer 04 Leverkusen,1.FC Köln,0,1,Exequiel,Palacios,64,0,0,TRUE
+2022-03-10 20:00:00.000,Atalanta Bergamo,Bayer 04 Leverkusen,3,2,Exequiel,Palacios,90,0,0,TRUE
+2022-03-05 14:30:00.000,FC Bayern München,Bayer 04 Leverkusen,1,1,Exequiel,Palacios,20,0,0,FALSE
+2022-02-26 14:30:00.000,Bayer 04 Leverkusen,Arminia Bielefeld,3,0,Exequiel,Palacios,76,0,0,TRUE
+2022-02-18 19:30:00.000,1.FSV Mainz 05,Bayer 04 Leverkusen,3,2,Exequiel,Palacios,0,0,0,FALSE
+2022-02-12 17:30:00.000,Bayer 04 Leverkusen,VfB Stuttgart,4,2,Exequiel,Palacios,20,0,0,FALSE
+2023-05-14 13:30:00.000,VfB Stuttgart,Bayer 04 Leverkusen,1,1,Jonathan,Tah,90,0,0,TRUE
+2023-05-11 19:00:00.000,AS Rom,Bayer 04 Leverkusen,1,0,Jonathan,Tah,90,0,0,TRUE
+2023-05-05 18:30:00.000,Bayer 04 Leverkusen,1.FC Köln,1,2,Jonathan,Tah,81,0,0,TRUE
+2023-04-29 13:30:00.000,1.FC Union Berlin,Bayer 04 Leverkusen,0,0,Jonathan,Tah,90,0,0,TRUE
+2023-04-23 15:30:00.000,Bayer 04 Leverkusen,RasenBallsport Leipzig,2,0,Jonathan,Tah,90,0,0,TRUE
+2023-04-20 19:00:00.000,Royale Union Saint Gilloise,Bayer 04 Leverkusen,1,4,Jonathan,Tah,90,0,0,TRUE
+2023-04-16 17:30:00.000,VfL Wolfsburg,Bayer 04 Leverkusen,0,0,Jonathan,Tah,12,0,0,FALSE
+2023-04-13 19:00:00.000,Bayer 04 Leverkusen,Royale Union Saint Gilloise,1,1,Jonathan,Tah,90,0,0,TRUE
+2023-04-08 13:30:00.000,Bayer 04 Leverkusen,Eintracht Frankfurt,3,1,Jonathan,Tah,90,0,0,TRUE
+2023-04-01 13:30:00.000,FC Schalke 04,Bayer 04 Leverkusen,0,3,Jonathan,Tah,90,0,0,TRUE
+2023-03-19 16:30:00.000,Bayer 04 Leverkusen,FC Bayern München,2,1,Jonathan,Tah,1,0,0,FALSE
+2023-03-16 20:00:00.000,Ferencváros Budapest,Bayer 04 Leverkusen,0,2,Jonathan,Tah,90,0,0,TRUE
+2023-03-12 16:30:00.000,SV Werder Bremen,Bayer 04 Leverkusen,2,3,Jonathan,Tah,90,0,0,TRUE
+2023-03-09 17:45:00.000,Bayer 04 Leverkusen,Ferencváros Budapest,2,0,Jonathan,Tah,90,0,0,TRUE
+2023-03-05 14:30:00.000,Bayer 04 Leverkusen,Hertha BSC,4,1,Jonathan,Tah,90,0,0,TRUE
+2023-02-23 17:45:00.000,AS Monaco,Bayer 04 Leverkusen,5,8,Jonathan,Tah,120,0,0,TRUE
+2023-02-19 18:30:00.000,Bayer 04 Leverkusen,1.FSV Mainz 05,2,3,Jonathan,Tah,90,0,0,TRUE
+2023-02-16 20:00:00.000,Bayer 04 Leverkusen,AS Monaco,2,3,Jonathan,Tah,90,0,0,TRUE
+2023-02-11 14:30:00.000,TSG 1899 Hoffenheim,Bayer 04 Leverkusen,1,3,Jonathan,Tah,90,0,0,TRUE
+2023-02-03 19:30:00.000,FC Augsburg,Bayer 04 Leverkusen,1,0,Jonathan,Tah,13,0,0,FALSE
+2023-01-29 16:30:00.000,Bayer 04 Leverkusen,Borussia Dortmund,0,2,Jonathan,Tah,63,0,0,TRUE
+2023-01-25 19:30:00.000,Bayer 04 Leverkusen,VfL Bochum,2,0,Jonathan,Tah,90,0,0,TRUE
+2023-01-22 16:30:00.000,Borussia Mönchengladbach,Bayer 04 Leverkusen,2,3,Jonathan,Tah,15,0,0,FALSE
+2022-11-12 14:30:00.000,Bayer 04 Leverkusen,VfB Stuttgart,2,0,Jonathan,Tah,90,1,0,TRUE
+2022-11-09 17:30:00.000,1.FC Köln,Bayer 04 Leverkusen,1,2,Jonathan,Tah,59,0,0,TRUE
+2022-11-06 14:30:00.000,Bayer 04 Leverkusen,1.FC Union Berlin,5,0,Jonathan,Tah,21,0,0,FALSE
+2022-11-01 17:45:00.000,Bayer 04 Leverkusen,FC Brügge,0,0,Jonathan,Tah,90,0,0,TRUE
+2022-10-29 13:30:00.000,RasenBallsport Leipzig,Bayer 04 Leverkusen,2,0,Jonathan,Tah,90,0,0,TRUE
+2022-10-26 19:00:00.000,Atlético Madrid,Bayer 04 Leverkusen,2,2,Jonathan,Tah,29,0,0,FALSE
+2022-10-22 13:30:00.000,Bayer 04 Leverkusen,VfL Wolfsburg,2,2,Jonathan,Tah,90,0,0,TRUE
+2022-10-15 13:30:00.000,Eintracht Frankfurt,Bayer 04 Leverkusen,5,1,Jonathan,Tah,90,0,0,TRUE
+2022-10-08 13:30:00.000,Bayer 04 Leverkusen,FC Schalke 04,4,0,Jonathan,Tah,90,0,0,TRUE
+2022-09-30 18:30:00.000,FC Bayern München,Bayer 04 Leverkusen,4,0,Jonathan,Tah,90,0,0,TRUE
+2022-09-17 13:30:00.000,Bayer 04 Leverkusen,SV Werder Bremen,1,1,Jonathan,Tah,90,0,0,TRUE
+2022-09-13 19:00:00.000,Bayer 04 Leverkusen,Atlético Madrid,2,0,Jonathan,Tah,90,0,0,TRUE
+2022-09-10 13:30:00.000,Hertha BSC,Bayer 04 Leverkusen,2,2,Jonathan,Tah,90,0,0,TRUE
+2022-09-03 13:30:00.000,Bayer 04 Leverkusen,SC Freiburg,2,3,Jonathan,Tah,60,0,0,TRUE
+2022-08-27 13:30:00.000,1.FSV Mainz 05,Bayer 04 Leverkusen,0,3,Jonathan,Tah,90,0,0,TRUE
+2022-08-20 13:30:00.000,Bayer 04 Leverkusen,TSG 1899 Hoffenheim,0,3,Jonathan,Tah,90,0,0,TRUE
+2022-08-13 13:30:00.000,Bayer 04 Leverkusen,FC Augsburg,1,2,Jonathan,Tah,90,0,0,TRUE
+2022-08-06 16:30:00.000,Borussia Dortmund,Bayer 04 Leverkusen,1,0,Jonathan,Tah,90,0,0,TRUE
+2022-07-30 13:31:00.000,SV 07 Elversberg,Bayer 04 Leverkusen,4,3,Jonathan,Tah,0,0,0,FALSE
+2022-06-14 18:45:00.000,Deutschland,Italien,5,2,Jonathan,Tah,3,0,0,FALSE
+2022-06-11 18:45:00.000,Ungarn,Deutschland,1,1,Jonathan,Tah,0,0,0,FALSE
+2022-06-04 18:45:00.000,Italien,Deutschland,1,1,Jonathan,Tah,0,0,0,FALSE
+2022-05-14 13:30:00.000,Bayer 04 Leverkusen,SC Freiburg,2,1,Jonathan,Tah,90,0,0,TRUE
+2022-05-07 13:30:00.000,TSG 1899 Hoffenheim,Bayer 04 Leverkusen,2,4,Jonathan,Tah,90,0,0,TRUE
+2022-05-02 18:30:00.000,Bayer 04 Leverkusen,Eintracht Frankfurt,2,0,Jonathan,Tah,90,0,0,TRUE
+2022-04-23 13:30:00.000,SpVgg Greuther Fürth,Bayer 04 Leverkusen,1,4,Jonathan,Tah,90,0,0,TRUE
+2022-04-17 17:30:00.000,Bayer 04 Leverkusen,RasenBallsport Leipzig,0,1,Jonathan,Tah,74,0,0,TRUE
+2022-04-10 13:30:00.000,VfL Bochum,Bayer 04 Leverkusen,0,0,Jonathan,Tah,30,0,0,TRUE
+2022-04-02 13:30:00.000,Bayer 04 Leverkusen,Hertha BSC,2,1,Jonathan,Tah,90,0,0,TRUE
+2022-03-29 18:45:00.000,Niederlande,Deutschland,1,1,Jonathan,Tah,0,0,0,FALSE
+2022-03-26 19:45:00.000,Deutschland,Israel,2,0,Jonathan,Tah,90,0,0,TRUE
+2022-03-20 16:30:00.000,VfL Wolfsburg,Bayer 04 Leverkusen,0,2,Jonathan,Tah,90,0,0,TRUE
+2022-03-17 17:45:00.000,Bayer 04 Leverkusen,Atalanta Bergamo,0,1,Jonathan,Tah,90,0,0,TRUE
+2022-03-13 14:30:00.000,Bayer 04 Leverkusen,1.FC Köln,0,1,Jonathan,Tah,90,0,0,TRUE
+2022-03-10 20:00:00.000,Atalanta Bergamo,Bayer 04 Leverkusen,3,2,Jonathan,Tah,90,0,0,TRUE
+2022-03-05 14:30:00.000,FC Bayern München,Bayer 04 Leverkusen,1,1,Jonathan,Tah,90,0,0,TRUE
+2022-02-26 14:30:00.000,Bayer 04 Leverkusen,Arminia Bielefeld,3,0,Jonathan,Tah,86,0,0,TRUE
+2022-02-18 19:30:00.000,1.FSV Mainz 05,Bayer 04 Leverkusen,3,2,Jonathan,Tah,90,0,0,TRUE
+2022-02-06 14:30:00.000,Borussia Dortmund,Bayer 04 Leverkusen,2,5,Jonathan,Tah,90,1,0,TRUE
+2022-01-22 14:30:00.000,Bayer 04 Leverkusen,FC Augsburg,5,1,Jonathan,Tah,82,0,0,TRUE
+2022-01-15 17:30:00.000,Borussia Mönchengladbach,Bayer 04 Leverkusen,1,2,Jonathan,Tah,90,0,0,TRUE
+2022-01-08 14:30:00.000,Bayer 04 Leverkusen,1.FC Union Berlin,2,2,Jonathan,Tah,90,1,0,TRUE

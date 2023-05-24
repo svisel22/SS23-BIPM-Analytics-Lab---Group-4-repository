@@ -1,7 +1,8 @@
 from difflib import SequenceMatcher
 import numpy as np
 import pandas as pd
-
+import emoji
+from gensim.parsing.preprocessing import remove_stopwords
 
 
 # Function which finds the lines where a players name is contained
@@ -126,3 +127,11 @@ def remove_similar_rows_per_player(df, playerlist, threshold=0.9):
         #return modified DataFrame
     return df_complete
 
+
+def map_emoji_to_description(emoji_text): 
+    emoji_description = emoji.demojize(emoji_text)
+    return emoji_description
+
+
+def remove_stopwords_from_text(text, stopwords_list_per_language):
+    return remove_stopwords(text, stopwords=stopwords_list_per_language)

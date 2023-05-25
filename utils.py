@@ -143,28 +143,37 @@ def del_patterns(df_line, pattern):
     Function which takes an input and deletes defined text pattern 
     '''
     # split up the records in lines
-    lines = df_line.split('\\n')
-    
-    # create an empty string
-    new_string = ''
+    #lines = df_line.split('\\n')
+    lines = df_line.split('\n')  # Split at newline characters first
 
-    # iterating over the lines 
+    split_lines = []
     for line in lines:
-       
-       # set deleting to False first
-        deleting = False
-        # check if a pattern word is included in the line and set deleting to True if so 
-        for word in pattern:
-            if deleting == True:
-                break
-            elif word in line:
-                deleting = True
-            else:
-                deleting = False
+        split_lines.extend(line.split('\\t'))  # Split each line at tab characters
+
+    if len(split_lines)>1:
+
+        # create an empty string
+        new_string = ''
+
+        # iterating over the lines 
+        for line in split_lines:
         
-        # if the setence should not be delete it add it to the string  
-        if deleting == False:
-           new_string = new_string + line 
-        
+        # set deleting to False first
+            deleting = False
+            # check if a pattern word is included in the line and set deleting to True if so 
+            for word in pattern:
+                if deleting == True:
+                    break
+                elif word in line:
+                    deleting = True
+                else:
+                    deleting = False
+            
+            # if the setence should not be delete it add it to the string  
+            if deleting == False:
+                new_string = new_string + line 
+
+    else:
+        new_string = df_line
     # return the string 
     return new_string

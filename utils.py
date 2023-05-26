@@ -128,8 +128,8 @@ def remove_similar_rows_per_player(df, playerlist, threshold=0.9):
     return df_complete
 
 
-def map_emoji_to_description(emoji_text): 
-    emoji_description = emoji.demojize(emoji_text)
+def map_emoji_to_description(emoji_text, language): 
+    emoji_description = emoji.demojize(emoji_text, language=language)
     return emoji_description
 
 
@@ -143,20 +143,23 @@ def del_patterns(df_line, pattern):
     Function which takes an input and deletes defined text pattern 
     '''
     # split up the records in lines
-    #lines = df_line.split('\\n')
+    lines = df_line.split('\\n')
+    '''
     lines = df_line.split('\n')  # Split at newline characters first
 
     split_lines = []
     for line in lines:
         split_lines.extend(line.split('\\t'))  # Split each line at tab characters
 
-    if len(split_lines)>1:
+    '''
+
+    if len(lines)>1:
 
         # create an empty string
         new_string = ''
 
         # iterating over the lines 
-        for line in split_lines:
+        for line in lines:
         
         # set deleting to False first
             deleting = False

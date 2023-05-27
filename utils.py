@@ -2,7 +2,9 @@ from difflib import SequenceMatcher
 import numpy as np
 import pandas as pd
 import emoji
+import re
 from gensim.parsing.preprocessing import remove_stopwords
+from unidecode import unidecode
 
 
 # Function which finds the lines where a players name is contained
@@ -62,8 +64,6 @@ def find_lines_with_player(dataframe, playerlist, n_lines = 0):
         
     return df_complete
 
-
-
 def remove_similar_rows(column_as_df, df, threshold=0.9):
     ''' The old Function of removing similiarities is deleting allduplicate articles'''
 
@@ -85,8 +85,6 @@ def remove_similar_rows(column_as_df, df, threshold=0.9):
     
     # Remove rows and return modified DataFrame
     return df.drop(rows_to_remove)
-
-
 
 def remove_similar_rows_per_player(df, playerlist, threshold=0.9):
     '''The procedure of deleting similiar articles needs to be done by each player because if an article writes about 
@@ -127,16 +125,18 @@ def remove_similar_rows_per_player(df, playerlist, threshold=0.9):
         #return modified DataFrame
     return df_complete
 
-
 def map_emoji_to_description(emoji_text, language): 
     emoji_description = emoji.demojize(emoji_text, language=language)
     return emoji_description
 
+def translate_emojis(text, language):
+    return re.sub(r'[\U0001F000-\U0001F999]', lambda match: map_emoji_to_description(match.group(), language=language), text)
+
+def remove_accents(text):
+    return unidecode(text)
 
 def remove_stopwords_from_text(text, stopwords_list_per_language):
     return remove_stopwords(text, stopwords=stopwords_list_per_language)
-
-
 
 def del_patterns(df_line, pattern):
     '''

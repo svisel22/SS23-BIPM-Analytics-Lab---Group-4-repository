@@ -3,8 +3,12 @@ import numpy as np
 import pandas as pd
 import emoji
 import re
-from gensim.parsing.preprocessing import remove_stopwords
+from gensim.parsing.preprocessing import remove_stopwords, stem_text
+from gensim.corpora import Dictionary
+from gensim.models import TfidfModel
 from unidecode import unidecode
+from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
+
 
 
 # Function which finds the lines where a players name is contained
@@ -180,3 +184,48 @@ def del_patterns(df_line, pattern):
         new_string = df_line
     # return the string 
     return new_string
+
+
+def word_frequency_per_player(df, playerlist):
+    '''
+    Function which returns the frequncy of words in articles for all players 
+    '''
+     # define empty df which will be returned in the end
+    df_complete = pd.DataFrame()
+
+    for player in playerlist:
+
+         # create the df for the player
+        df_player = df[df["player"] == player]
+        df_player = df_player.dropna(subset=['data'])
+        df_player = df_player.reset_index(drop=True)
+
+        # create a stemmed data corpus
+        df_player['stemmed_data'] = df_player['data'].apply(stem_text)
+        data_stem = df_player['data'].apply(stem_text)
+        data = data_stem.tolist()
+
+        # create a corpus
+        corpus_gen=[doc.split() for doc in data]
+
+        # Assume `corpus` is a preprocessed corpus
+        id2word = Dictionary(corpus_gen)
+
+        # Filter out rare and common words
+        id2word.filter_extremes(no_below=5, no_above=0.95)
+
+        # Display features and their frequencies
+        df_frequencies = pd.DataFrame(columns=['Word', 'Frequency', 'player'])
+    
+        i = 1
+        for feature, frequency in id2word.cfs.items():
+
+            # Append a new row to the DataFrame
+            df_frequencies.loc[i]= [id2word[feature],frequency, player]
+            i = i+1
+
+        df_frequencies = df_frequencies.sort_values('Frequency', ascending=False)
+
+        df_complete = pd.concat([df_complete, df_frequencies], axis=0)
+
+    return df_complete

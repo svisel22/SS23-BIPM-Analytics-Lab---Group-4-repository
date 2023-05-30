@@ -174,7 +174,7 @@ def del_patterns(df_line, pattern):
             
             # if the setence should not be delete it add it to the string  
             if deleting == False:
-                new_string = new_string + line 
+                new_string = new_string + line + '\\n '
 
     else:
         new_string = df_line

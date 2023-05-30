@@ -38,22 +38,22 @@ def find_lines_with_player(dataframe, playerlist, n_lines = 0):
             for line in lines:
                 # if the playername can be found in the line add the line to the string
                 if line.find(player) != -1:
-                    new_string = new_string + line
+                    new_string = new_string + line + " "
                     if line_counter <= 0:
                         line_counter = line_counter + n_lines
             
                 elif line.find(player_first_name) != -1:
-                    new_string = new_string + line
+                    new_string = new_string + line + " "
                     if line_counter <= 0:
                         line_counter = line_counter + n_lines
         
                 elif line.find(player_last_name) != -1:
-                    new_string = new_string + line
+                    new_string = new_string + line + " "
                     if line_counter <= 0:
                         line_counter = line_counter + n_lines
             
                 elif line_counter >= 0:
-                    new_string = new_string + line
+                    new_string = new_string + line + " "
                     line_counter = line_counter-1
         
             # switch the previos record against the newly created string 

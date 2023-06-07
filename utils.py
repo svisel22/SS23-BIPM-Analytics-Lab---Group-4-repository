@@ -229,3 +229,33 @@ def word_frequency_per_player(df, playerlist):
         df_complete = pd.concat([df_complete, df_frequencies], axis=0)
 
     return df_complete
+
+
+def name_wordgroups(df):
+    '''
+    Function to match first and surname to just last name
+    '''
+    # create patterns which should be matched 
+    # first lastname and firstname should both result in just lastname
+    pattern_match2d = np.array([[r"\b(mitchel bakker|mitchel)\b", 'bakker'], 
+                                [r"\b(xabi alonso|xabi)\b", 'alonso'], 
+                                [r"\b(exequiel palacios|exequiel)\b", 'palacios'],
+                                [r"\b(nadiem amiri|nadiem)\b", 'amiri'],
+                                [r"\b(kerem demirbay|kerem)\b", 'demirbay'],
+                                [r"\b(robert andrich|robert)\b", 'andrich'],
+                                [r"\b(exequiel palacios|exequiel)\b", 'palacios'],
+                                [r"\b(piero hincapie|piero)\b", 'hincapie'],
+                                [r"\b(jeremie frimpong|jeremie)\b", 'frimpong'],
+                                [r"\b(jonathan tah|jonathan)\b", 'tah'],
+                                [r"\b(moussa diaby|moussa)\b", 'diaby'],
+                                [r"\b(mykhaylo mudryk|mykhaylo)\b", 'mudryk'],
+                                [r"\b(amine adli|amine)\b", 'adli'],
+                                [r"\b(florian wirtz|florian)\b", 'wirtz']
+                                ])
+
+    # do the pattern matching for each player
+    for pattern, player in pattern_match2d:
+        df['data'] = df['data'].apply(lambda x: re.sub(pattern, str(player), str(x)))
+
+    return df
+

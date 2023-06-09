@@ -250,7 +250,12 @@ def name_wordgroups(df):
                                 [r"\b(moussa diaby|moussa)\b", 'diaby'],
                                 [r"\b(mykhaylo mudryk|mykhaylo)\b", 'mudryk'],
                                 [r"\b(amine adli|amine)\b", 'adli'],
-                                [r"\b(florian wirtz|florian)\b", 'wirtz']
+                                [r"\b(florian wirtz|florian)\b", 'wirtz'],
+                                [r"\b(jose mourinho|jose)\b", 'mourinho'],     
+                                #other wordgroups
+                                [r"\b(europa league)\b", 'europaleague'],
+                                [r"\b(champions league)\b", 'championsleague'],
+                                [r"\b(bayer leverkusen|bayer|leverkusen)\b", 'bayerleverkusen']
                                 ])
 
     # do the pattern matching for each player
@@ -259,3 +264,15 @@ def name_wordgroups(df):
 
     return df
 
+
+'''
+# Function to remove specific words from the string
+def remove_words(text):
+    pattern = r"\b(mitchel|bakker|exequiel|palacios|piero|hincapie|jeremie|frimpong|jonathan|tah|moussa|diaby|mykhaylo|mudryk)\b"
+    return re.sub(pattern, "", text)
+
+# Apply the function to the data column
+df_stem['data'] = df_stem['data'].apply(lambda x: remove_words(str(x)))
+
+df_stem
+'''

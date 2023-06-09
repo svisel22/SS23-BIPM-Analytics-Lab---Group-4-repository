@@ -255,7 +255,7 @@ def name_wordgroups(df):
                                 #other wordgroups
                                 [r"\b(europa league)\b", 'europaleague'],
                                 [r"\b(champions league)\b", 'championsleague'],
-                                [r"\b(bayer leverkusen|bayer|leverkusen)\b", 'bayerleverkusen']
+                                [r"\b(bayer leverkusen|bayer|leverkusen|leverkusens)\b", 'bayerleverkusen']
                                 ])
 
     # do the pattern matching for each player

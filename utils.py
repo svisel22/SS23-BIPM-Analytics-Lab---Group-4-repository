@@ -264,6 +264,20 @@ def name_wordgroups(df):
 
     return df
 
+def extract_sentence(df):
+    
+    for index, row in df.iterrows():
+        player = row['player']
+        data = str(row['data'])  # Convert data to string
+        
+        # Find the sentence containing player's information
+        sentences = data.split('.')
+        for sentence in sentences:
+            if player.lower() in sentence.lower():
+                df.at[index, 'data'] = sentence.strip()
+                break
+    
+    return df
 
 '''
 # Function to remove specific words from the string
@@ -276,3 +290,4 @@ df_stem['data'] = df_stem['data'].apply(lambda x: remove_words(str(x)))
 
 df_stem
 '''
+

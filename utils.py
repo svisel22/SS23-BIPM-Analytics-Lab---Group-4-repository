@@ -265,6 +265,7 @@ def name_wordgroups(df):
     return df
 
 
+
 '''
 # Function to remove specific words from the string
 def remove_words(text):
@@ -276,3 +277,4 @@ df_stem['data'] = df_stem['data'].apply(lambda x: remove_words(str(x)))
 
 df_stem
 '''
+

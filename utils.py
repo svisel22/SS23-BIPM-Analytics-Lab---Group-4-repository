@@ -217,7 +217,7 @@ def word_frequency_per_player(df, playerlist):
         # Display features and their frequencies
         df_frequencies = pd.DataFrame(columns=['Word', 'Frequency', 'player'])
     
-        i = 1
+        i = 0 
         for feature, frequency in id2word.cfs.items():
 
             # Append a new row to the DataFrame

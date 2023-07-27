@@ -303,6 +303,44 @@ def print_player_freq(df_freq):
     
     return df_freq_res
 
+def extract_sentence(df):
+    """
+    Extracts sentences from the 'data' column of the input DataFrame 'df' containing player information.
+    The function iterates through each row and uses a regular expression to match sentences ending with '.', '!', or '?'.
+    If the player's name (case-insensitive) is found within the sentence, it is appended to 'player_info_sentences' list.
+    The resulting list of sentences is added as a new 'sentence' column to the DataFrame, and the updated DataFrame is returned.
+    
+    Parameters:
+        df (pandas.DataFrame): Input DataFrame containing 'player' and 'data' columns.
+    
+    Returns:
+        pandas.DataFrame: DataFrame with an additional 'sentence' column containing the extracted sentences.
+    """
+    player_info_sentences = []  # List to store the extracted sentences for each row in the DataFrame.
+    for idx, row in df.iterrows():
+        player = row['player']  # Player's name in the current row.
+        data = row['data']  # Text data containing player information in the current row.
+        pattern = r"(.*?[.!?])\s*"  # Regular expression pattern to match sentences.
+
+        # Find the first sentence in the 'data' that matches the pattern.
+        match = re.search(pattern, data, re.IGNORECASE)
+        while match:
+            sentence = match.group(1)  # Extract the matched sentence.
+            if player.lower() in sentence.lower():  # Check if the player's name is present in the sentence.
+                player_info_sentences.append(sentence)  # Append the sentence to the list.
+                break  # Stop searching for sentences for the current row.
+
+            data = data[match.end():]  # Move to the remaining part of 'data'.
+            match = re.search(pattern, data, re.IGNORECASE)  # Find the next sentence.
+
+        if not match:
+            # If no matching sentence is found for the current row, append an empty string to the list.
+            player_info_sentences.append('')
+
+    # Add the list of extracted sentences as a new 'sentence' column to the DataFrame.
+    df['sentence'] = player_info_sentences
+    return df  # Return the updated DataFrame.
+
 
 def map_emoji_to_description(emoji_text, language): 
     """

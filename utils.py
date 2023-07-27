@@ -419,6 +419,30 @@ df_stem
 
 # For Models_accuracy_per_langugage to evaluate performance
 def evaluate_performance(df, sentiment_column, label_column):
+    """
+    This function evaluates the performance of a sentiment analysis model by calculating accuracy, generating a confusion matrix, and creating a classification report. It takes a DataFrame with true sentiment labels and predicted sentiment scores as input.
+
+    Parameters:
+        df: DataFrame
+            A DataFrame containing true sentiment labels in the column specified by 'label_column' and predicted sentiment scores in the column specified by 'sentiment_column'.
+        sentiment_column: str
+            The name of the column in the DataFrame containing the predicted sentiment scores.
+        label_column: str
+            The name of the column in the DataFrame containing the true sentiment labels.
+
+    Returns:
+        tuple
+            A tuple containing the following elements:
+            - accuracy: float
+                The accuracy of the sentiment analysis model.
+            - unique_predicted: ndarray
+                An array containing the unique predicted sentiment labels.
+            - cm_df: DataFrame
+                A DataFrame representing the confusion matrix for better visualization.
+            - report: str
+                The classification report containing precision, recall, F1-score, and support for each class.
+    """
+
     # Calculate the accuracy
     accuracy = accuracy_score(df[label_column], df[sentiment_column])
 
@@ -445,32 +469,26 @@ def evaluate_performance(df, sentiment_column, label_column):
 
 
 # For Models_accuracy_per_langugage to transform scores into positiv, negativ,  neutral
-def sentiment_translated_scores(df, sentiment_model):
-    # Create empty lists to store the sentiment scores and labels
-    sentiment_scores = []
-    sentiment_2_labels = []
+def transform_scores(df, sentiment_column):
+    """
+    This function transforms sentiment scores into three-dimensional sentiment labels (positive/neutral/negative). It takes a DataFrame containing sentiment scores as input and returns a list of corresponding sentiment labels.
+
+    Parameters:
+        df: DataFrame
+            A DataFrame containing sentiment scores, typically in a column named 'sentiment_bert'.
+            
+    Returns:
+        list of str
+            A list of sentiment labels ('positive', 'neutral', or 'negative') based on the input sentiment scores.
+    """
+
     sentiment_3_labels = []
-
-    # Iterate over the 'data' column in the DataFrame
-    for text in df['data']:
-        # Perform sentiment analysis using the Hugging Face pipeline
-        result = sentiment_model(text)[0]
-        sentiment_score = result['score']
-        
-        # Convert logits to twodimensional labels (positive/negative)
-        sentiment_2_label = 1 if sentiment_score > 0.5 else 0
-        sentiment_2_label = "positiv" if sentiment_2_label == 1 else "negativ"
-
-        # Convert logits to threedimensional labels (positive/neutral/negative)
-        if sentiment_score > 0.6:
-            sentiment_3_label = "positiv"
-        elif sentiment_score < 0.4:
-            sentiment_3_label = "negativ"
+    for score in df['sentiment_bert']: 
+        if score > 0.6:
+            sentiment_label = "positiv"
+        elif score < 0.4:
+            sentiment_label = "negativ"
         else:
-            sentiment_3_label = "neutral"
-
-        # Append the sentiment score and label to the respective lists
-        sentiment_scores.append(sentiment_score)
-        sentiment_2_labels.append(sentiment_2_label)
-        sentiment_3_labels.append(sentiment_3_label)
-    return sentiment_scores, sentiment_2_labels, sentiment_3_labels
+            sentiment_label = "neutral"
+        sentiment_3_labels.append(sentiment_label)
+    return sentiment_3_labels

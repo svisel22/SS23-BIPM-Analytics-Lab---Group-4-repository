@@ -167,63 +167,6 @@ def remove_similar_rows_per_player(df, playerlist, threshold=0.9):
     return df_complete
 
 
-def map_emoji_to_description(emoji_text, language): 
-    """
-    This function transforms emojis into text
-    
-    Parameters:
-        emoji_text: string which contains emojis
-        language: language in which the text is written and to which the emojis should be mapped
-    
-    Returns:
-        string with text instead of emojis
-    """
-    emoji_description = emoji.demojize(emoji_text, language=language)
-    return emoji_description
-
-
-def translate_emojis(text, language):
-    """
-    This function transforms text which contains emojis into text without emojis 
-    
-    Parameters:
-        text: string which contains emojis
-        language: language in which the text is written and to which the emojis should be mapped
-    
-    Returns:
-        string with text instead of emojis
-    """
-    return re.sub(r'[\U0001F000-\U0001F999]', lambda match: map_emoji_to_description(match.group(), language=language), text)
-
-
-def remove_accents(text):
-    """
-    This function removes accents from text
-    
-    Parameters:
-        text: string which contains accents
-    
-    Returns:
-        string without accents
-    """
-    return unidecode(text)
-
-
-def remove_stopwords_from_text(text, stopwords_list_per_language):
-    """
-    This function removes stopwords from text
-    
-    Parameters:
-        text: string which contains stopwords
-        stopwords_list_per_language: stopwords which should be deleted
-    
-    Returns:
-        string without stopwords
-    """
-    return remove_stopwords(text, stopwords=stopwords_list_per_language)
-
-
-
 def del_patterns(df_line, pattern):
     """
     This function removes defined patterns from a list 
@@ -359,6 +302,63 @@ def print_player_freq(df_freq):
     return df_freq_res
 
 
+def map_emoji_to_description(emoji_text, language): 
+    """
+    This function transforms emojis into text
+    
+    Parameters:
+        emoji_text: string which contains emojis
+        language: language in which the text is written and to which the emojis should be mapped
+    
+    Returns:
+        string with text instead of emojis
+    """
+    emoji_description = emoji.demojize(emoji_text, language=language)
+    return emoji_description
+
+
+def translate_emojis(text, language):
+    """
+    This function transforms text which contains emojis into text without emojis 
+    
+    Parameters:
+        text: string which contains emojis
+        language: language in which the text is written and to which the emojis should be mapped
+    
+    Returns:
+        string with text instead of emojis
+    """
+    return re.sub(r'[\U0001F000-\U0001F999]', lambda match: map_emoji_to_description(match.group(), language=language), text)
+
+
+def remove_accents(text):
+    """
+    This function removes accents from text
+    
+    Parameters:
+        text: string which contains accents
+    
+    Returns:
+        string without accents
+    """
+    return unidecode(text)
+
+
+def remove_stopwords_from_text(text, stopwords_list_per_language):
+    """
+    This function removes stopwords from text
+    
+    Parameters:
+        text: string which contains stopwords
+        stopwords_list_per_language: stopwords which should be deleted
+    
+    Returns:
+        string without stopwords
+    """
+    return remove_stopwords(text, stopwords=stopwords_list_per_language)
+
+
+
 def name_wordgroups(df):
     """
     This function matches first and surname of players to just last name 
@@ -397,6 +397,9 @@ def name_wordgroups(df):
         df['data'] = df['data'].apply(lambda x: re.sub(pattern, str(player), str(x)))
 
     return df
+
+
+
 
 
 

@@ -8,6 +8,8 @@ from gensim.corpora import Dictionary
 from gensim.models import TfidfModel
 from unidecode import unidecode
 from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
+from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
+
 
 
 
@@ -278,3 +280,60 @@ df_stem['data'] = df_stem['data'].apply(lambda x: remove_words(str(x)))
 df_stem
 '''
 
+# For Models_accuracy_per_langugage to evaluate performance
+def evaluate_performance(df, sentiment_column, label_column):
+    # Calculate the accuracy
+    accuracy = accuracy_score(df[label_column], df[sentiment_column])
+
+    # Find unique predicted sentiment labels
+    unique_predicted = df[sentiment_column].unique()
+
+    # Assign true and predicted labels
+    true_labels = df[label_column]
+    predicted_labels = df[sentiment_column]
+
+    # Create the confusion matrix
+    cm = confusion_matrix(true_labels, predicted_labels)
+
+    # Convert the confusion matrix to a DataFrame for better visualization
+    labels = np.unique(np.concatenate((true_labels, predicted_labels)))
+    cm_df = pd.DataFrame(cm, index=labels, columns=labels)
+
+
+    # Generate the classification report
+    report = classification_report(true_labels, predicted_labels)
+
+    return accuracy, unique_predicted, cm_df, report
+
+
+
+# For Models_accuracy_per_langugage to transform scores into positiv, negativ,  neutral
+def sentiment_translated_scores(df, sentiment_model):
+    # Create empty lists to store the sentiment scores and labels
+    sentiment_scores = []
+    sentiment_2_labels = []
+    sentiment_3_labels = []
+
+    # Iterate over the 'data' column in the DataFrame
+    for text in df['data']:
+        # Perform sentiment analysis using the Hugging Face pipeline
+        result = sentiment_model(text)[0]
+        sentiment_score = result['score']
+        
+        # Convert logits to twodimensional labels (positive/negative)
+        sentiment_2_label = 1 if sentiment_score > 0.5 else 0
+        sentiment_2_label = "positiv" if sentiment_2_label == 1 else "negativ"
+
+        # Convert logits to threedimensional labels (positive/neutral/negative)
+        if sentiment_score > 0.6:
+            sentiment_3_label = "positiv"
+        elif sentiment_score < 0.4:
+            sentiment_3_label = "negativ"
+        else:
+            sentiment_3_label = "neutral"
+
+        # Append the sentiment score and label to the respective lists
+        sentiment_scores.append(sentiment_score)
+        sentiment_2_labels.append(sentiment_2_label)
+        sentiment_3_labels.append(sentiment_3_label)
+    return sentiment_scores, sentiment_2_labels, sentiment_3_labels

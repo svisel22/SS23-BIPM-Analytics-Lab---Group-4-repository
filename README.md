@@ -1,4 +1,4 @@
-# Welcome to sentiement analaysis for Buyer04 sports news repository
+# Welcome to sentiement analaysis for Bayer04 sports news repository
 
 ## Introduction
 

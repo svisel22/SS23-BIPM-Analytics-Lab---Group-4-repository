@@ -169,50 +169,6 @@ def remove_similar_rows_per_player(df, playerlist, threshold=0.9):
     return df_complete
 
 
-def del_patterns(df_line, pattern):
-    """
-    This function removes defined patterns from a list 
-    
-    Parameters:
-        df_line: string which contains pattern
-        pattern: pattern which should be delted
-    
-    Returns:
-        string without stopwords
-    """
-
-    # Split up the records in lines
-    lines = df_line.split('\\n')
-
-    if len(lines)>1:
-
-        # Create an empty string
-        new_string = ''
-
-        # Iterating over the lines 
-        for line in lines:
-        
-        # Set deleting to False first
-            deleting = False
-            # Check if a pattern word is included in the line and set deleting to True if so 
-            for word in pattern:
-                if deleting == True:
-                    break
-                elif word in line:
-                    deleting = True
-                else:
-                    deleting = False
-            
-            # If the setence should not be delete it add it to the string  
-            if deleting == False:
-                new_string = new_string + line + '\\n '
-
-    else:
-        new_string = df_line
-    # Return the string 
-    return new_string
-
-
 def word_frequency_per_player(df, playerlist):
     """
     This function returns the word freqencies for each players data. 
@@ -439,23 +395,6 @@ def name_wordgroups(df):
     return df
 
 
-
-
-
-
-'''
-# Function to remove specific words from the string
-def remove_words(text):
-    pattern = r"\b(mitchel|bakker|exequiel|palacios|piero|hincapie|jeremie|frimpong|jonathan|tah|moussa|diaby|mykhaylo|mudryk)\b"
-    return re.sub(pattern, "", text)
-
-# Apply the function to the data column
-df_stem['data'] = df_stem['data'].apply(lambda x: remove_words(str(x)))
-
-df_stem
-'''
-
-# For Models_accuracy_per_langugage to evaluate performance
 def evaluate_performance(df, sentiment_column, label_column):
     """
     This function evaluates the performance of a sentiment analysis model by calculating accuracy, generating a confusion matrix, and creating a classification report. It takes a DataFrame with true sentiment labels and predicted sentiment scores as input.
@@ -506,7 +445,6 @@ def evaluate_performance(df, sentiment_column, label_column):
 
 
 
-# For Models_accuracy_per_langugage to transform scores into positiv, negativ,  neutral
 def transform_scores(df, sentiment_column):
     """
     This function transforms sentiment scores into three-dimensional sentiment labels (positive/neutral/negative). It takes a DataFrame containing sentiment scores as input and returns a list of corresponding sentiment labels.
@@ -530,3 +468,91 @@ def transform_scores(df, sentiment_column):
             sentiment_label = "neutral"
         sentiment_3_labels.append(sentiment_label)
     return sentiment_3_labels
+
+
+
+'''
+def del_patterns(df_line, pattern):
+    """
+    This function removes defined patterns from a list 
+    
+    Parameters:
+        df_line: string which contains pattern
+        pattern: pattern which should be delted
+    
+    Returns:
+        string without stopwords
+    """
+
+    # Split up the records in lines
+    lines = df_line.split('\\n')
+
+    if len(lines)>1:
+
+        # Create an empty string
+        new_string = ''
+
+        # Iterating over the lines 
+        for line in lines:
+        
+        # Set deleting to False first
+            deleting = False
+            # Check if a pattern word is included in the line and set deleting to True if so 
+            for word in pattern:
+                if deleting == True:
+                    break
+                elif word in line:
+                    deleting = True
+                else:
+                    deleting = False
+            
+            # If the setence should not be delete it add it to the string  
+            if deleting == False:
+                new_string = new_string + line + '\\n '
+
+    else:
+        new_string = df_line
+    # Return the string 
+    return new_string'''
+
+def del_patterns(df_line, pattern):
+    """
+    This function removes defined patterns from a list 
+    
+    Parameters:
+        df_line: string which contains pattern
+        pattern: pattern which should be delted
+    
+    Returns:
+        string without stopwords
+    """
+    # split up the records in lines
+    lines = df_line.split('\\n')
+    
+    if len(lines) > 1:
+        # create an empty string
+        new_string = ''
+        
+        # iterating over the lines 
+        for line in lines:
+            # set deleting to False first
+            deleting = False
+            
+            # check if any pattern word is included in the line and set deleting to True if so 
+            for word in pattern:
+                if word in line:
+                    deleting = True
+                    break
+            
+            # if the sentence should not be deleted, add it to the string  
+            if not deleting:
+                new_string += line + ' '  # Add a space after each line
+            
+        # remove trailing space from the new_string
+        new_string = new_string.rstrip()
+        
+    else:
+        new_string = df_line
+    
+    # return the string 
+    return new_string

@@ -1,3 +1,4 @@
+# Import packages
 from difflib import SequenceMatcher
 import numpy as np
 import pandas as pd
@@ -12,8 +13,6 @@ from sklearn.metrics import accuracy_score, confusion_matrix, classification_rep
 
 
 
-
-# Function which finds the lines where a players name is contained
 def find_lines_with_player(dataframe, playerlist, n_lines = 0):
     """
     This function transform article data into just the lines where a playername appears. 

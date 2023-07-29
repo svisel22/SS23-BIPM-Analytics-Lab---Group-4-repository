@@ -11,11 +11,11 @@ The main questions asked to us by Bayer04 were:
 Generally they were also interested in how many articles are there per player per language over time.
 
 ### Understanding public sentiment per player
-We use sentiment analysis techniques to dive deep into public soccer news and discover what public sentiment towards players. By understanding trends, we help the club form stronger connections with their supporters, building fan attraction and loyalty that goes beyond the pitch.
-We use clustering techniques to understand different public sentiments and identify common themes among them. This way, we can give Bayer04 more detailed insights into what their fans love and what they're concerned about.
+We use sentiment analysis techniques to dive deep into public soccer news and discover what public sentiment towards players. By understanding trends, we help the club form stronger connections with their supporters, building fan attraction and loyalty that goes beyond the pitch. 
+We use clustering techniques to understand different public sentiments and identify common themes among them. This way, we can give Bayer04 more detailed insights into what their fans love and what they're concerned about. 
 
 ## Approach
-![Local Image](wrap_up.png)
+![Local Image](wrap_up.png) 
 
 ## Content
 

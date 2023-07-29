@@ -46,7 +46,7 @@ The main subject of this folder is adressed in the text_clustering file, which u
 
 ### Generated files (HEX)
 
-    - all_data_v3.csv
+    ** all_data_v3.csv **
 
     This file contains the original data pulled from the urls, it is not yet cleaned. We use it in HEX to show the original data we gather form the beggining.
 
@@ -61,7 +61,7 @@ The main subject of this folder is adressed in the text_clustering file, which u
     - match_info_players.csv
 
     This file was provided by Bayer04 and contains match information, including the opposing team, number of goals scored, and the players who scored them. In HEX, we utilized this data in combination with sentiment information to establish a relationship between the match status and sentiment.
-    
+
 ## Instalation?
 
 ## Usage

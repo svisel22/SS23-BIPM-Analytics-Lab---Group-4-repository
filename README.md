@@ -46,7 +46,7 @@ The main subject of this folder is adressed in the text_clustering file, which u
 
 ### Generated files (HEX)
 
-    ** all_data_v3.csv **
+** all_data_v3.csv **
 
     This file contains the original data pulled from the urls, it is not yet cleaned. We use it in HEX to show the original data we gather form the beggining.
 

@@ -470,51 +470,6 @@ def transform_scores(df, sentiment_column):
     return sentiment_3_labels
 
 
-
-'''
-def del_patterns(df_line, pattern):
-    """
-    This function removes defined patterns from a list 
-    
-    Parameters:
-        df_line: string which contains pattern
-        pattern: pattern which should be delted
-    
-    Returns:
-        string without stopwords
-    """
-
-    # Split up the records in lines
-    lines = df_line.split('\\n')
-
-    if len(lines)>1:
-
-        # Create an empty string
-        new_string = ''
-
-        # Iterating over the lines 
-        for line in lines:
-        
-        # Set deleting to False first
-            deleting = False
-            # Check if a pattern word is included in the line and set deleting to True if so 
-            for word in pattern:
-                if deleting == True:
-                    break
-                elif word in line:
-                    deleting = True
-                else:
-                    deleting = False
-            
-            # If the setence should not be delete it add it to the string  
-            if deleting == False:
-                new_string = new_string + line + '\\n '
-
-    else:
-        new_string = df_line
-    # Return the string 
-    return new_string'''
-
 def del_patterns(df_line, pattern):
     """
     This function removes defined patterns from a list 

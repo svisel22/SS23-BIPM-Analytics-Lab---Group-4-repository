@@ -46,21 +46,21 @@ The main subject of this folder is adressed in the text_clustering file, which u
 
 ### Generated files (HEX)
 
-** all_data_v3.csv **
+**all_data_v3.csv**
 
-    This file contains the original data pulled from the urls, it is not yet cleaned. We use it in HEX to show the original data we gather form the beggining.
+This file contains the original data pulled from the urls, it is not yet cleaned. We use it in HEX to show the original data we gather form the beggining.
 
-    - data_sentiment_final.csv
+**data_sentiment_final.csv**
 
-    This file contains the cleaned and processed data, including a sentiment score and label. With information on players, languages, dates, sentiment, and other relevant details, it serves as the basis for dynamic dashboards in HEX. These dashboards enable users to explore the average sentiment per player, period of time, and language.
+This file contains the cleaned and processed data, including a sentiment score and label. With information on players, languages, dates, sentiment, and other relevant details, it serves as the basis for dynamic dashboards in HEX. These dashboards enable users to explore the average sentiment per player, period of time, and language.
 
-    - word_frequencies.csv
+**word_frequencies.csv**
 
-    This file contains the absolute frequency of words per player and language. It is used in HEX to create dashboards that highlight the most frequent words used by each player and language.
+This file contains the absolute frequency of words per player and language. It is used in HEX to create dashboards that highlight the most frequent words used by each player and language.
 
-    - match_info_players.csv
+**match_info_players.csv**
 
-    This file was provided by Bayer04 and contains match information, including the opposing team, number of goals scored, and the players who scored them. In HEX, we utilized this data in combination with sentiment information to establish a relationship between the match status and sentiment.
+This file was provided by Bayer04 and contains match information, including the opposing team, number of goals scored, and the players who scored them. In HEX, we utilized this data in combination with sentiment information to establish a relationship between the match status and sentiment.
 
 ## Instalation?
 

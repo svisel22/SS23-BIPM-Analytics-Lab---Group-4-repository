@@ -8,6 +8,8 @@ from gensim.corpora import Dictionary
 from gensim.models import TfidfModel
 from unidecode import unidecode
 from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
+from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
+
 
 
 
@@ -165,50 +167,6 @@ def remove_similar_rows_per_player(df, playerlist, threshold=0.9):
 
         #Return modified DataFrame
     return df_complete
-
-
-def del_patterns(df_line, pattern):
-    """
-    This function removes defined patterns from a list 
-    
-    Parameters:
-        df_line: string which contains pattern
-        pattern: pattern which should be delted
-    
-    Returns:
-        string without stopwords
-    """
-
-    # Split up the records in lines
-    lines = df_line.split('\\n')
-
-    if len(lines)>1:
-
-        # Create an empty string
-        new_string = ''
-
-        # Iterating over the lines 
-        for line in lines:
-        
-        # Set deleting to False first
-            deleting = False
-            # Check if a pattern word is included in the line and set deleting to True if so 
-            for word in pattern:
-                if deleting == True:
-                    break
-                elif word in line:
-                    deleting = True
-                else:
-                    deleting = False
-            
-            # If the setence should not be delete it add it to the string  
-            if deleting == False:
-                new_string = new_string + line + '\\n '
-
-    else:
-        new_string = df_line
-    # Return the string 
-    return new_string
 
 
 def word_frequency_per_player(df, playerlist):
@@ -437,19 +395,119 @@ def name_wordgroups(df):
     return df
 
 
+def evaluate_performance(df, sentiment_column, label_column):
+    """
+    This function evaluates the performance of a sentiment analysis model by calculating accuracy, generating a confusion matrix, and creating a classification report. It takes a DataFrame with true sentiment labels and predicted sentiment scores as input.
+
+    Parameters:
+        df: DataFrame
+            A DataFrame containing true sentiment labels in the column specified by 'label_column' and predicted sentiment scores in the column specified by 'sentiment_column'.
+        sentiment_column: str
+            The name of the column in the DataFrame containing the predicted sentiment scores.
+        label_column: str
+            The name of the column in the DataFrame containing the true sentiment labels.
+
+    Returns:
+        tuple
+            A tuple containing the following elements:
+            - accuracy: float
+                The accuracy of the sentiment analysis model.
+            - unique_predicted: ndarray
+                An array containing the unique predicted sentiment labels.
+            - cm_df: DataFrame
+                A DataFrame representing the confusion matrix for better visualization.
+            - report: str
+                The classification report containing precision, recall, F1-score, and support for each class.
+    """
+
+    # Calculate the accuracy
+    accuracy = accuracy_score(df[label_column], df[sentiment_column])
+
+    # Find unique predicted sentiment labels
+    unique_predicted = df[sentiment_column].unique()
+
+    # Assign true and predicted labels
+    true_labels = df[label_column]
+    predicted_labels = df[sentiment_column]
+
+    # Create the confusion matrix
+    cm = confusion_matrix(true_labels, predicted_labels)
+
+    # Convert the confusion matrix to a DataFrame for better visualization
+    labels = np.unique(np.concatenate((true_labels, predicted_labels)))
+    cm_df = pd.DataFrame(cm, index=labels, columns=labels)
+
+
+    # Generate the classification report
+    report = classification_report(true_labels, predicted_labels)
+
+    return accuracy, unique_predicted, cm_df, report
 
 
 
+def transform_scores(df, sentiment_column):
+    """
+    This function transforms sentiment scores into three-dimensional sentiment labels (positive/neutral/negative). It takes a DataFrame containing sentiment scores as input and returns a list of corresponding sentiment labels.
 
-'''
-# Function to remove specific words from the string
-def remove_words(text):
-    pattern = r"\b(mitchel|bakker|exequiel|palacios|piero|hincapie|jeremie|frimpong|jonathan|tah|moussa|diaby|mykhaylo|mudryk)\b"
-    return re.sub(pattern, "", text)
+    Parameters:
+        df: DataFrame
+            A DataFrame containing sentiment scores, typically in a column named 'sentiment_bert'.
+            
+    Returns:
+        list of str
+            A list of sentiment labels ('positive', 'neutral', or 'negative') based on the input sentiment scores.
+    """
 
-# Apply the function to the data column
-df_stem['data'] = df_stem['data'].apply(lambda x: remove_words(str(x)))
+    sentiment_3_labels = []
+    for score in df['sentiment_bert']: 
+        if score > 0.6:
+            sentiment_label = "positiv"
+        elif score < 0.4:
+            sentiment_label = "negativ"
+        else:
+            sentiment_label = "neutral"
+        sentiment_3_labels.append(sentiment_label)
+    return sentiment_3_labels
 
-df_stem
-'''
 
+def del_patterns(df_line, pattern):
+    """
+    This function removes defined patterns from a list 
+    
+    Parameters:
+        df_line: string which contains pattern
+        pattern: pattern which should be delted
+    
+    Returns:
+        string without stopwords
+    """
+    # split up the records in lines
+    lines = df_line.split('\\n')
+    
+    if len(lines) > 1:
+        # create an empty string
+        new_string = ''
+        
+        # iterating over the lines 
+        for line in lines:
+            # set deleting to False first
+            deleting = False
+            
+            # check if any pattern word is included in the line and set deleting to True if so 
+            for word in pattern:
+                if word in line:
+                    deleting = True
+                    break
+            
+            # if the sentence should not be deleted, add it to the string  
+            if not deleting:
+                new_string += line + ' '  # Add a space after each line
+            
+        # remove trailing space from the new_string
+        new_string = new_string.rstrip()
+        
+    else:
+        new_string = df_line
+    
+    # return the string 
+    return new_string

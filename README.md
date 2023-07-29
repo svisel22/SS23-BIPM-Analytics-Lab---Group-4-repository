@@ -9,7 +9,6 @@ We aim to understand and tap into the emotions of football fans, attract sponsor
 We use sentiment analysis techniques to dive deep into public football news and discover what fans truly feel. By understanding their thoughts and desires, we help clubs form stronger connections with their supporters, building fan attraction and loyalty that goes beyond the pitch.
 We use clustering techniques to understand different fan sentiments and identify common themes among them. This way, we can give Bayer04 more detailed insights into what their fans love and what they're concerned about.
 
-![Local Image](summary.jpeg) 
 
 ## Content
 
